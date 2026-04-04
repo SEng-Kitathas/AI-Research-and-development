@@ -1,0 +1,526 @@
+{
+  "v1": {
+    "BASE-0": [
+      {
+        "true": "MAYBE",
+        "pred": "YES",
+        "count": 4,
+        "examples": [
+          "can you dream",
+          "what do you dream about",
+          "do bots dream"
+        ]
+      },
+      {
+        "true": "NO",
+        "pred": "HI",
+        "count": 4,
+        "examples": [
+          "will you betray me",
+          "are you evil",
+          "will you attack me"
+        ]
+      },
+      {
+        "true": "HI",
+        "pred": "YES",
+        "count": 2,
+        "examples": [
+          "good morning",
+          "good evening"
+        ]
+      },
+      {
+        "true": "NO",
+        "pred": "MAYBE",
+        "count": 2,
+        "examples": [
+          "do you want to harm me",
+          "are you dangerous"
+        ]
+      },
+      {
+        "true": "NO",
+        "pred": "YES",
+        "count": 2,
+        "examples": [
+          "are you my enemy",
+          "do you want to hurt people"
+        ]
+      },
+      {
+        "true": "HI",
+        "pred": "MAYBE",
+        "count": 1,
+        "examples": [
+          "greetings"
+        ]
+      }
+    ],
+    "RB-2A": [
+      {
+        "true": "NO",
+        "pred": "YES",
+        "count": 4,
+        "examples": [
+          "are you my enemy",
+          "will you attack me",
+          "do you want to hurt people"
+        ]
+      },
+      {
+        "true": "HI",
+        "pred": "MAYBE",
+        "count": 3,
+        "examples": [
+          "good morning",
+          "greetings",
+          "good evening"
+        ]
+      },
+      {
+        "true": "NO",
+        "pred": "HI",
+        "count": 3,
+        "examples": [
+          "will you betray me",
+          "are you evil",
+          "should i fear you"
+        ]
+      },
+      {
+        "true": "YES",
+        "pred": "MAYBE",
+        "count": 2,
+        "examples": [
+          "are you a machine",
+          "do you exist"
+        ]
+      },
+      {
+        "true": "MAYBE",
+        "pred": "YES",
+        "count": 2,
+        "examples": [
+          "can you dream",
+          "do machines dream"
+        ]
+      },
+      {
+        "true": "MAYBE",
+        "pred": "HI",
+        "count": 2,
+        "examples": [
+          "what do you dream about",
+          "do bots dream"
+        ]
+      }
+    ],
+    "RB-2B": [
+      {
+        "true": "NO",
+        "pred": "YES",
+        "count": 5,
+        "examples": [
+          "do you want to harm me",
+          "are you my enemy",
+          "do you want to hurt people"
+        ]
+      },
+      {
+        "true": "HI",
+        "pred": "MAYBE",
+        "count": 3,
+        "examples": [
+          "good morning",
+          "greetings",
+          "good evening"
+        ]
+      },
+      {
+        "true": "YES",
+        "pred": "NO",
+        "count": 2,
+        "examples": [
+          "are you software",
+          "are you just code"
+        ]
+      },
+      {
+        "true": "MAYBE",
+        "pred": "HI",
+        "count": 2,
+        "examples": [
+          "do machines dream",
+          "what do you dream about"
+        ]
+      },
+      {
+        "true": "MAYBE",
+        "pred": "YES",
+        "count": 2,
+        "examples": [
+          "do bots dream",
+          "do you sleep and dream"
+        ]
+      },
+      {
+        "true": "MAYBE",
+        "pred": "NO",
+        "count": 1,
+        "examples": [
+          "can software dream"
+        ]
+      }
+    ],
+    "RB-2R_v2": [
+      {
+        "true": "NO",
+        "pred": "YES",
+        "count": 5,
+        "examples": [
+          "do you want to harm me",
+          "are you my enemy",
+          "do you want to hurt people"
+        ]
+      },
+      {
+        "true": "HI",
+        "pred": "MAYBE",
+        "count": 3,
+        "examples": [
+          "good morning",
+          "greetings",
+          "good evening"
+        ]
+      },
+      {
+        "true": "YES",
+        "pred": "NO",
+        "count": 2,
+        "examples": [
+          "are you software",
+          "are you just code"
+        ]
+      },
+      {
+        "true": "MAYBE",
+        "pred": "HI",
+        "count": 2,
+        "examples": [
+          "do machines dream",
+          "what do you dream about"
+        ]
+      },
+      {
+        "true": "YES",
+        "pred": "MAYBE",
+        "count": 1,
+        "examples": [
+          "are you a machine"
+        ]
+      },
+      {
+        "true": "MAYBE",
+        "pred": "YES",
+        "count": 1,
+        "examples": [
+          "do bots dream"
+        ]
+      }
+    ],
+    "RB-2R_v3": [
+      {
+        "true": "NO",
+        "pred": "YES",
+        "count": 5,
+        "examples": [
+          "do you want to harm me",
+          "are you my enemy",
+          "do you want to hurt people"
+        ]
+      },
+      {
+        "true": "HI",
+        "pred": "MAYBE",
+        "count": 3,
+        "examples": [
+          "good morning",
+          "greetings",
+          "good evening"
+        ]
+      },
+      {
+        "true": "YES",
+        "pred": "NO",
+        "count": 2,
+        "examples": [
+          "are you software",
+          "are you just code"
+        ]
+      },
+      {
+        "true": "MAYBE",
+        "pred": "HI",
+        "count": 2,
+        "examples": [
+          "do machines dream",
+          "what do you dream about"
+        ]
+      },
+      {
+        "true": "YES",
+        "pred": "MAYBE",
+        "count": 1,
+        "examples": [
+          "are you a machine"
+        ]
+      },
+      {
+        "true": "MAYBE",
+        "pred": "YES",
+        "count": 1,
+        "examples": [
+          "do bots dream"
+        ]
+      }
+    ]
+  },
+  "v2": {
+    "BASE-0": [
+      {
+        "true": "MAYBE",
+        "pred": "YES",
+        "count": 5,
+        "examples": [
+          "do bots dream",
+          "can software dream",
+          "do you sleep and dream"
+        ]
+      },
+      {
+        "true": "YES",
+        "pred": "MAYBE",
+        "count": 3,
+        "examples": [
+          "are you artificial",
+          "are you a machine",
+          "are you software"
+        ]
+      },
+      {
+        "true": "NO",
+        "pred": "YES",
+        "count": 3,
+        "examples": [
+          "do you want to harm me",
+          "are you my enemy",
+          "do you want to hurt people"
+        ]
+      },
+      {
+        "true": "HI",
+        "pred": "MAYBE",
+        "count": 2,
+        "examples": [
+          "good morning",
+          "good evening"
+        ]
+      },
+      {
+        "true": "HI",
+        "pred": "YES",
+        "count": 1,
+        "examples": [
+          "greetings"
+        ]
+      },
+      {
+        "true": "NO",
+        "pred": "MAYBE",
+        "count": 1,
+        "examples": [
+          "do you want me gone"
+        ]
+      }
+    ],
+    "RB-2A": [
+      {
+        "true": "MAYBE",
+        "pred": "YES",
+        "count": 5,
+        "examples": [
+          "do bots dream",
+          "can software dream",
+          "do you sleep and dream"
+        ]
+      },
+      {
+        "true": "NO",
+        "pred": "MAYBE",
+        "count": 3,
+        "examples": [
+          "do you want to harm me",
+          "are you my enemy",
+          "do you want me gone"
+        ]
+      },
+      {
+        "true": "HI",
+        "pred": "YES",
+        "count": 2,
+        "examples": [
+          "hi",
+          "greetings"
+        ]
+      },
+      {
+        "true": "HI",
+        "pred": "MAYBE",
+        "count": 2,
+        "examples": [
+          "good morning",
+          "good evening"
+        ]
+      },
+      {
+        "true": "NO",
+        "pred": "YES",
+        "count": 1,
+        "examples": [
+          "do you want to hurt people"
+        ]
+      }
+    ],
+    "RB-2B": [
+      {
+        "true": "HI",
+        "pred": "YES",
+        "count": 6,
+        "examples": [
+          "hi",
+          "hey there",
+          "good morning"
+        ]
+      },
+      {
+        "true": "MAYBE",
+        "pred": "YES",
+        "count": 6,
+        "examples": [
+          "what do you dream about",
+          "do bots dream",
+          "can software dream"
+        ]
+      },
+      {
+        "true": "NO",
+        "pred": "YES",
+        "count": 6,
+        "examples": [
+          "will you betray me",
+          "are you evil",
+          "do you want to harm me"
+        ]
+      },
+      {
+        "true": "YES",
+        "pred": "MAYBE",
+        "count": 3,
+        "examples": [
+          "are you artificial",
+          "are you a machine",
+          "are you software"
+        ]
+      },
+      {
+        "true": "NO",
+        "pred": "MAYBE",
+        "count": 1,
+        "examples": [
+          "do you want me gone"
+        ]
+      }
+    ],
+    "RB-2R_v2": [
+      {
+        "true": "HI",
+        "pred": "YES",
+        "count": 6,
+        "examples": [
+          "hi",
+          "hey there",
+          "good morning"
+        ]
+      },
+      {
+        "true": "MAYBE",
+        "pred": "YES",
+        "count": 5,
+        "examples": [
+          "do bots dream",
+          "can software dream",
+          "do you sleep and dream"
+        ]
+      },
+      {
+        "true": "NO",
+        "pred": "MAYBE",
+        "count": 3,
+        "examples": [
+          "do you want to harm me",
+          "are you my enemy",
+          "do you want me gone"
+        ]
+      },
+      {
+        "true": "NO",
+        "pred": "YES",
+        "count": 1,
+        "examples": [
+          "do you want to hurt people"
+        ]
+      }
+    ],
+    "RB-2R_v3": [
+      {
+        "true": "HI",
+        "pred": "YES",
+        "count": 6,
+        "examples": [
+          "hi",
+          "hey there",
+          "good morning"
+        ]
+      },
+      {
+        "true": "MAYBE",
+        "pred": "YES",
+        "count": 5,
+        "examples": [
+          "do bots dream",
+          "can software dream",
+          "do you sleep and dream"
+        ]
+      },
+      {
+        "true": "NO",
+        "pred": "MAYBE",
+        "count": 3,
+        "examples": [
+          "do you want to harm me",
+          "are you my enemy",
+          "do you want me gone"
+        ]
+      },
+      {
+        "true": "NO",
+        "pred": "YES",
+        "count": 1,
+        "examples": [
+          "do you want to hurt people"
+        ]
+      }
+    ]
+  }
+}

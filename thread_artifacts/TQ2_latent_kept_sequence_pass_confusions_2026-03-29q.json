@@ -1,0 +1,145 @@
+{
+  "PER_STEP_DECODE": [
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 32
+    },
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 13
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 12
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 10
+    },
+    {
+      "true": "YES",
+      "pred": "MAYBE",
+      "count": 9
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 6
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 3
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 3
+    }
+  ],
+  "LATENT_KEPT_ADDITIVE": [
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 13
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 12
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 10
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 8
+    },
+    {
+      "true": "YES",
+      "pred": "MAYBE",
+      "count": 6
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 6
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 3
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 3
+    }
+  ],
+  "LATENT_DECODE_EVERY2": [
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 16
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 16
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 12
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 10
+    },
+    {
+      "true": "YES",
+      "pred": "MAYBE",
+      "count": 6
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 6
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 3
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 3
+    }
+  ],
+  "LATENT_FINAL_ONLY": [
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 3
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 3
+    },
+    {
+      "true": "HI",
+      "pred": "NO",
+      "count": 2
+    }
+  ]
+}

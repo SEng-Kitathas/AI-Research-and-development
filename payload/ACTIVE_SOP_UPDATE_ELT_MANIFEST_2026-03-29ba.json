@@ -1,0 +1,55 @@
+{
+  "source_zip": "files(3).zip",
+  "extract_root": "/mnt/data/files3_extract_active",
+  "artifact_count": 8,
+  "artifacts": [
+    {
+      "file_name": "CHIMERA_LINEAGE_MAP.md",
+      "bytes": 7885,
+      "sha256_12": "c7902cd38896",
+      "kind": "md"
+    },
+    {
+      "file_name": "DEVIATION_LOG.md",
+      "bytes": 1066,
+      "sha256_12": "a00e10c83e54",
+      "kind": "md"
+    },
+    {
+      "file_name": "EVALUATION_LOG.md",
+      "bytes": 1256,
+      "sha256_12": "4244cdd5583e",
+      "kind": "md"
+    },
+    {
+      "file_name": "EXPERIMENT_PREREGISTRATION_LOG.md",
+      "bytes": 1955,
+      "sha256_12": "4960aaf3de33",
+      "kind": "md"
+    },
+    {
+      "file_name": "EXPERIMENT_SPEC_AND_REPORT_TEMPLATES.md",
+      "bytes": 3398,
+      "sha256_12": "72050441ba7c",
+      "kind": "md"
+    },
+    {
+      "file_name": "SHADOW_DOC_TEMPLATES.md",
+      "bytes": 7725,
+      "sha256_12": "c078fabaeb89",
+      "kind": "md"
+    },
+    {
+      "file_name": "UNIVERSAL_LAB_SOP_2026-03-29.md",
+      "bytes": 25983,
+      "sha256_12": "7e60ae382dcb",
+      "kind": "md"
+    },
+    {
+      "file_name": "UNIVERSAL_LAB_SOP_CHIMERA_2026-03-29.zip",
+      "bytes": 25544,
+      "sha256_12": "fa0ee174f491",
+      "kind": "zip"
+    }
+  ]
+}

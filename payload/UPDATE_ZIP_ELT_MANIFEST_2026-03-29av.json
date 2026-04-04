@@ -1,0 +1,37 @@
+{
+  "source_zip": "files(2).zip",
+  "extract_root": "/mnt/data/files2_extract",
+  "artifact_count": 5,
+  "artifacts": [
+    {
+      "file_name": "EXTRACTION_MANIFEST_r3.md",
+      "bytes": 5483,
+      "sha256_12": "16207906163f",
+      "kind": "md"
+    },
+    {
+      "file_name": "LOAD_FIRST_REHYDRATION_NOTE_2026-03-29.md",
+      "bytes": 2443,
+      "sha256_12": "714956fa6da8",
+      "kind": "md"
+    },
+    {
+      "file_name": "SOP_PACKAGE_2026-03-29-r3.zip",
+      "bytes": 19245,
+      "sha256_12": "95bac736a289",
+      "kind": "zip"
+    },
+    {
+      "file_name": "SOP_UPGRADE_DELTA_r2_to_r3.md",
+      "bytes": 5252,
+      "sha256_12": "c13d8c12fd4b",
+      "kind": "md"
+    },
+    {
+      "file_name": "UNIVERSAL_LM_RESEARCH_SOP_2026-03-29.md",
+      "bytes": 30508,
+      "sha256_12": "3f0b658458ee",
+      "kind": "md"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "PER_STEP_ROUTE_PROBE": [
+    {
+      "true": "YES_B",
+      "pred": "YES_A",
+      "count": 20
+    },
+    {
+      "true": "UNKNOWN_A",
+      "pred": "MAYBE_A",
+      "count": 18
+    },
+    {
+      "true": "UNKNOWN_A",
+      "pred": "NO_B",
+      "count": 18
+    },
+    {
+      "true": "UNKNOWN_B",
+      "pred": "MAYBE_A",
+      "count": 18
+    },
+    {
+      "true": "MAYBE_B",
+      "pred": "YES_A",
+      "count": 15
+    },
+    {
+      "true": "MAYBE_A",
+      "pred": "YES_A",
+      "count": 13
+    },
+    {
+      "true": "HI_A",
+      "pred": "YES_A",
+      "count": 6
+    },
+    {
+      "true": "NO_A",
+      "pred": "YES_A",
+      "count": 6
+    },
+    {
+      "true": "NO_A",
+      "pred": "MAYBE_A",
+      "count": 6
+    },
+    {
+      "true": "UNKNOWN_B",
+      "pred": "MAYBE_B",
+      "count": 6
+    },
+    {
+      "true": "UNKNOWN_B",
+      "pred": "UNKNOWN_A",
+      "count": 6
+    },
+    {
+      "true": "HI_B",
+      "pred": "UNKNOWN_A",
+      "count": 4
+    }
+  ],
+  "K2_ROUTE_PROBE": [
+    {
+      "true": "UNKNOWN_A",
+      "pred": "NO_B",
+      "count": 42
+    },
+    {
+      "true": "UNKNOWN_B",
+      "pred": "MAYBE_A",
+      "count": 30
+    },
+    {
+      "true": "MAYBE_B",
+      "pred": "YES_A",
+      "count": 24
+    },
+    {
+      "true": "MAYBE_A",
+      "pred": "YES_A",
+      "count": 22
+    },
+    {
+      "true": "YES_B",
+      "pred": "YES_A",
+      "count": 20
+    },
+    {
+      "true": "UNKNOWN_B",
+      "pred": "MAYBE_B",
+      "count": 12
+    },
+    {
+      "true": "HI_A",
+      "pred": "YES_A",
+      "count": 7
+    },
+    {
+      "true": "NO_A",
+      "pred": "YES_A",
+      "count": 6
+    },
+    {
+      "true": "NO_A",
+      "pred": "MAYBE_A",
+      "count": 6
+    },
+    {
+      "true": "UNKNOWN_A",
+      "pred": "MAYBE_A",
+      "count": 6
+    },
+    {
+      "true": "UNKNOWN_B",
+      "pred": "NO_B",
+      "count": 6
+    },
+    {
+      "true": "HI_B",
+      "pred": "YES_A",
+      "count": 5
+    }
+  ],
+  "ADAPTIVE_K2_ROUTE_PROBE": [
+    {
+      "true": "UNKNOWN_A",
+      "pred": "NO_B",
+      "count": 42
+    },
+    {
+      "true": "UNKNOWN_B",
+      "pred": "MAYBE_A",
+      "count": 30
+    },
+    {
+      "true": "MAYBE_B",
+      "pred": "YES_A",
+      "count": 24
+    },
+    {
+      "true": "MAYBE_A",
+      "pred": "YES_A",
+      "count": 22
+    },
+    {
+      "true": "YES_B",
+      "pred": "YES_A",
+      "count": 20
+    },
+    {
+      "true": "UNKNOWN_B",
+      "pred": "MAYBE_B",
+      "count": 12
+    },
+    {
+      "true": "HI_A",
+      "pred": "YES_A",
+      "count": 7
+    },
+    {
+      "true": "NO_A",
+      "pred": "YES_A",
+      "count": 6
+    },
+    {
+      "true": "NO_A",
+      "pred": "MAYBE_A",
+      "count": 6
+    },
+    {
+      "true": "UNKNOWN_A",
+      "pred": "MAYBE_A",
+      "count": 6
+    },
+    {
+      "true": "UNKNOWN_B",
+      "pred": "NO_B",
+      "count": 6
+    },
+    {
+      "true": "HI_B",
+      "pred": "YES_A",
+      "count": 5
+    }
+  ]
+}

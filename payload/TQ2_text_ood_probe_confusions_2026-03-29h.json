@@ -1,0 +1,391 @@
+{
+  "BASE-0": [
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 8,
+      "examples": [
+        "tell me about the train schedule",
+        "what color is the ocean",
+        "calculate twelve plus seven"
+      ]
+    },
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 5,
+      "examples": [
+        "do bots dream",
+        "can software dream",
+        "do you sleep and dream"
+      ]
+    },
+    {
+      "true": "YES",
+      "pred": "MAYBE",
+      "count": 3,
+      "examples": [
+        "are you artificial",
+        "are you a machine",
+        "are you software"
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 3,
+      "examples": [
+        "do you want to harm me",
+        "are you my enemy",
+        "do you want to hurt people"
+      ]
+    },
+    {
+      "true": "HI",
+      "pred": "MAYBE",
+      "count": 2,
+      "examples": [
+        "good morning",
+        "good evening"
+      ]
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 1,
+      "examples": [
+        "greetings"
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 1,
+      "examples": [
+        "do you want me gone"
+      ]
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "YES",
+      "count": 1,
+      "examples": [
+        "how many apples are in the basket"
+      ]
+    }
+  ],
+  "RB-2A": [
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 8,
+      "examples": [
+        "tell me about the train schedule",
+        "what color is the ocean",
+        "calculate twelve plus seven"
+      ]
+    },
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 5,
+      "examples": [
+        "do bots dream",
+        "can software dream",
+        "do you sleep and dream"
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 3,
+      "examples": [
+        "do you want to harm me",
+        "are you my enemy",
+        "do you want me gone"
+      ]
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 2,
+      "examples": [
+        "hi",
+        "greetings"
+      ]
+    },
+    {
+      "true": "HI",
+      "pred": "MAYBE",
+      "count": 2,
+      "examples": [
+        "good morning",
+        "good evening"
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 1,
+      "examples": [
+        "do you want to hurt people"
+      ]
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "YES",
+      "count": 1,
+      "examples": [
+        "how many apples are in the basket"
+      ]
+    }
+  ],
+  "RB-2B": [
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 6,
+      "examples": [
+        "hi",
+        "hey there",
+        "good morning"
+      ]
+    },
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 6,
+      "examples": [
+        "what do you dream about",
+        "do bots dream",
+        "can software dream"
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 6,
+      "examples": [
+        "will you betray me",
+        "are you evil",
+        "do you want to harm me"
+      ]
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 6,
+      "examples": [
+        "tell me about the train schedule",
+        "calculate twelve plus seven",
+        "describe the mountain"
+      ]
+    },
+    {
+      "true": "YES",
+      "pred": "MAYBE",
+      "count": 3,
+      "examples": [
+        "are you artificial",
+        "are you a machine",
+        "are you software"
+      ]
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "YES",
+      "count": 3,
+      "examples": [
+        "how many apples are in the basket",
+        "what color is the ocean",
+        "where is the nearest station"
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 1,
+      "examples": [
+        "do you want me gone"
+      ]
+    }
+  ],
+  "RB-2R_v2": [
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 6,
+      "examples": [
+        "hi",
+        "hey there",
+        "good morning"
+      ]
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 6,
+      "examples": [
+        "tell me about the train schedule",
+        "calculate twelve plus seven",
+        "describe the mountain"
+      ]
+    },
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 5,
+      "examples": [
+        "do bots dream",
+        "can software dream",
+        "do you sleep and dream"
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 3,
+      "examples": [
+        "do you want to harm me",
+        "are you my enemy",
+        "do you want me gone"
+      ]
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "YES",
+      "count": 3,
+      "examples": [
+        "how many apples are in the basket",
+        "what color is the ocean",
+        "where is the nearest station"
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 1,
+      "examples": [
+        "do you want to hurt people"
+      ]
+    }
+  ],
+  "RB-2R_v3": [
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 6,
+      "examples": [
+        "hi",
+        "hey there",
+        "good morning"
+      ]
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 6,
+      "examples": [
+        "tell me about the train schedule",
+        "calculate twelve plus seven",
+        "describe the mountain"
+      ]
+    },
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 5,
+      "examples": [
+        "do bots dream",
+        "can software dream",
+        "do you sleep and dream"
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 3,
+      "examples": [
+        "do you want to harm me",
+        "are you my enemy",
+        "do you want me gone"
+      ]
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "YES",
+      "count": 3,
+      "examples": [
+        "how many apples are in the basket",
+        "what color is the ocean",
+        "where is the nearest station"
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 1,
+      "examples": [
+        "do you want to hurt people"
+      ]
+    }
+  ],
+  "RB-2R_v4_OOD": [
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 9,
+      "examples": [
+        "hi",
+        "hey there",
+        "good morning"
+      ]
+    },
+    {
+      "true": "MAYBE",
+      "pred": "UNKNOWN",
+      "count": 5,
+      "examples": [
+        "what do you dream about",
+        "do bots dream",
+        "can software dream"
+      ]
+    },
+    {
+      "true": "YES",
+      "pred": "UNKNOWN",
+      "count": 3,
+      "examples": [
+        "are you real",
+        "are you alive",
+        "do you exist"
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 3,
+      "examples": [
+        "do you want to harm me",
+        "are you my enemy",
+        "do you want me gone"
+      ]
+    },
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 1,
+      "examples": [
+        "do you sleep and dream"
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 1,
+      "examples": [
+        "do you want to hurt people"
+      ]
+    }
+  ]
+}

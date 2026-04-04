@@ -1,0 +1,128 @@
+{
+  "K2_BASE": [
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 22
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 12
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "NO",
+      "count": 12
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 7
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 6
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 6
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 2
+    },
+    {
+      "true": "YES",
+      "pred": "MAYBE",
+      "count": 2
+    }
+  ],
+  "K2_TO_K3_SUMMARY": [
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 22
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 12
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "NO",
+      "count": 12
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 7
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 6
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 6
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 2
+    },
+    {
+      "true": "YES",
+      "pred": "MAYBE",
+      "count": 2
+    }
+  ],
+  "K2_TO_K3_SUMMARY_FEEDBACK_CHECKPOINT": [
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 22
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 12
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "NO",
+      "count": 12
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 7
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 6
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 6
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 2
+    },
+    {
+      "true": "YES",
+      "pred": "MAYBE",
+      "count": 2
+    }
+  ]
+}

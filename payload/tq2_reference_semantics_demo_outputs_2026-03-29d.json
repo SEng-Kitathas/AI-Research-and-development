@@ -1,0 +1,1451 @@
+{
+  "mixed_agreement_cross": {
+    "input_plane": [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "hybrid": {
+      "local_result": {
+        "best": {
+          "proto": "cross",
+          "score": 5,
+          "confidence": 0.5555555555555556,
+          "axis": "row",
+          "blocks": [
+            {
+              "block_index": 0,
+              "shift": 0,
+              "sign": 1,
+              "score": 1
+            },
+            {
+              "block_index": 1,
+              "shift": -1,
+              "sign": 1,
+              "score": 3
+            },
+            {
+              "block_index": 2,
+              "shift": 0,
+              "sign": 1,
+              "score": 1
+            }
+          ]
+        },
+        "all": [
+          {
+            "proto": "cross",
+            "score": 5,
+            "confidence": 0.5555555555555556,
+            "axis": "row",
+            "blocks": [
+              {
+                "block_index": 0,
+                "shift": 0,
+                "sign": 1,
+                "score": 1
+              },
+              {
+                "block_index": 1,
+                "shift": -1,
+                "sign": 1,
+                "score": 3
+              },
+              {
+                "block_index": 2,
+                "shift": 0,
+                "sign": 1,
+                "score": 1
+              }
+            ]
+          },
+          {
+            "proto": "diag",
+            "score": 3,
+            "confidence": 0.3333333333333333,
+            "axis": "row",
+            "blocks": [
+              {
+                "block_index": 0,
+                "shift": 1,
+                "sign": 1,
+                "score": 1
+              },
+              {
+                "block_index": 1,
+                "shift": -1,
+                "sign": 1,
+                "score": 1
+              },
+              {
+                "block_index": 2,
+                "shift": -1,
+                "sign": 1,
+                "score": 1
+              }
+            ]
+          },
+          {
+            "proto": "checker",
+            "score": 3,
+            "confidence": 0.3333333333333333,
+            "axis": "row",
+            "blocks": [
+              {
+                "block_index": 0,
+                "shift": -1,
+                "sign": -1,
+                "score": 1
+              },
+              {
+                "block_index": 1,
+                "shift": -1,
+                "sign": 1,
+                "score": 1
+              },
+              {
+                "block_index": 2,
+                "shift": -1,
+                "sign": 1,
+                "score": 1
+              }
+            ]
+          },
+          {
+            "proto": "L",
+            "score": 3,
+            "confidence": 0.3333333333333333,
+            "axis": "row",
+            "blocks": [
+              {
+                "block_index": 0,
+                "shift": 1,
+                "sign": 1,
+                "score": 1
+              },
+              {
+                "block_index": 1,
+                "shift": -1,
+                "sign": 1,
+                "score": 1
+              },
+              {
+                "block_index": 2,
+                "shift": -1,
+                "sign": 1,
+                "score": 1
+              }
+            ]
+          },
+          {
+            "proto": "bars",
+            "score": 2,
+            "confidence": 0.2222222222222222,
+            "axis": "row",
+            "blocks": [
+              {
+                "block_index": 0,
+                "shift": -1,
+                "sign": 1,
+                "score": 1
+              },
+              {
+                "block_index": 1,
+                "shift": -1,
+                "sign": -1,
+                "score": 0
+              },
+              {
+                "block_index": 2,
+                "shift": -1,
+                "sign": -1,
+                "score": 1
+              }
+            ]
+          }
+        ]
+      },
+      "global_result": {
+        "best": {
+          "proto": "cross",
+          "transform": "I",
+          "score": 5,
+          "confidence": 0.5555555555555556
+        },
+        "all": [
+          {
+            "proto": "cross",
+            "transform": "I",
+            "score": 5,
+            "confidence": 0.5555555555555556
+          },
+          {
+            "proto": "cross",
+            "transform": "R90",
+            "score": 5,
+            "confidence": 0.5555555555555556
+          },
+          {
+            "proto": "cross",
+            "transform": "R180",
+            "score": 5,
+            "confidence": 0.5555555555555556
+          },
+          {
+            "proto": "cross",
+            "transform": "R270",
+            "score": 5,
+            "confidence": 0.5555555555555556
+          },
+          {
+            "proto": "cross",
+            "transform": "FH",
+            "score": 5,
+            "confidence": 0.5555555555555556
+          },
+          {
+            "proto": "cross",
+            "transform": "FV",
+            "score": 5,
+            "confidence": 0.5555555555555556
+          },
+          {
+            "proto": "cross",
+            "transform": "FD",
+            "score": 5,
+            "confidence": 0.5555555555555556
+          },
+          {
+            "proto": "cross",
+            "transform": "FAD",
+            "score": 5,
+            "confidence": 0.5555555555555556
+          },
+          {
+            "proto": "L",
+            "transform": "I",
+            "score": 2,
+            "confidence": 0.2222222222222222
+          },
+          {
+            "proto": "L",
+            "transform": "R90",
+            "score": 2,
+            "confidence": 0.2222222222222222
+          },
+          {
+            "proto": "L",
+            "transform": "R180",
+            "score": 2,
+            "confidence": 0.2222222222222222
+          },
+          {
+            "proto": "L",
+            "transform": "R270",
+            "score": 2,
+            "confidence": 0.2222222222222222
+          },
+          {
+            "proto": "L",
+            "transform": "FH",
+            "score": 2,
+            "confidence": 0.2222222222222222
+          },
+          {
+            "proto": "L",
+            "transform": "FV",
+            "score": 2,
+            "confidence": 0.2222222222222222
+          },
+          {
+            "proto": "L",
+            "transform": "FD",
+            "score": 2,
+            "confidence": 0.2222222222222222
+          },
+          {
+            "proto": "L",
+            "transform": "FAD",
+            "score": 2,
+            "confidence": 0.2222222222222222
+          },
+          {
+            "proto": "diag",
+            "transform": "I",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "diag",
+            "transform": "R90",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "diag",
+            "transform": "R180",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "diag",
+            "transform": "R270",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "diag",
+            "transform": "FH",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "diag",
+            "transform": "FV",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "diag",
+            "transform": "FD",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "diag",
+            "transform": "FAD",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "checker",
+            "transform": "I",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "checker",
+            "transform": "R90",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "checker",
+            "transform": "R180",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "checker",
+            "transform": "R270",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "checker",
+            "transform": "FH",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "checker",
+            "transform": "FV",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "checker",
+            "transform": "FD",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "checker",
+            "transform": "FAD",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "bars",
+            "transform": "I",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "bars",
+            "transform": "R90",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "bars",
+            "transform": "R180",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "bars",
+            "transform": "R270",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "bars",
+            "transform": "FH",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "bars",
+            "transform": "FV",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "bars",
+            "transform": "FD",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "bars",
+            "transform": "FAD",
+            "score": 0,
+            "confidence": 0.0
+          }
+        ]
+      },
+      "reconciled": {
+        "mode": "mixed",
+        "proto": "cross",
+        "fused_confidence": 0.5556,
+        "local": {
+          "proto": "cross",
+          "score": 5,
+          "confidence": 0.5555555555555556,
+          "axis": "row",
+          "blocks": [
+            {
+              "block_index": 0,
+              "shift": 0,
+              "sign": 1,
+              "score": 1
+            },
+            {
+              "block_index": 1,
+              "shift": -1,
+              "sign": 1,
+              "score": 3
+            },
+            {
+              "block_index": 2,
+              "shift": 0,
+              "sign": 1,
+              "score": 1
+            }
+          ]
+        },
+        "global": {
+          "proto": "cross",
+          "transform": "I",
+          "score": 5,
+          "confidence": 0.5555555555555556
+        },
+        "agreement": true,
+        "contradiction_penalty": 0.0
+      }
+    },
+    "projection": {
+      "predicted_label": "cross",
+      "mode": "mixed",
+      "confidence": 0.5556,
+      "rationale": "local and global evidence were fused",
+      "support": {
+        "local_proto": "cross",
+        "local_conf": 0.5555555555555556,
+        "global_proto": "cross",
+        "global_conf": 0.5555555555555556,
+        "agreement": true
+      }
+    }
+  },
+  "local_first_checkerish": {
+    "input_plane": [
+      [
+        1,
+        -1,
+        1
+      ],
+      [
+        0,
+        1,
+        -1
+      ],
+      [
+        -1,
+        1,
+        -1
+      ]
+    ],
+    "hybrid": {
+      "local_result": {
+        "best": {
+          "proto": "checker",
+          "score": 5,
+          "confidence": 0.5555555555555556,
+          "axis": "row",
+          "blocks": [
+            {
+              "block_index": 0,
+              "shift": -1,
+              "sign": 1,
+              "score": 2
+            },
+            {
+              "block_index": 1,
+              "shift": 0,
+              "sign": 1,
+              "score": 1
+            },
+            {
+              "block_index": 2,
+              "shift": -1,
+              "sign": 1,
+              "score": 2
+            }
+          ]
+        },
+        "all": [
+          {
+            "proto": "checker",
+            "score": 5,
+            "confidence": 0.5555555555555556,
+            "axis": "row",
+            "blocks": [
+              {
+                "block_index": 0,
+                "shift": -1,
+                "sign": 1,
+                "score": 2
+              },
+              {
+                "block_index": 1,
+                "shift": 0,
+                "sign": 1,
+                "score": 1
+              },
+              {
+                "block_index": 2,
+                "shift": -1,
+                "sign": 1,
+                "score": 2
+              }
+            ]
+          },
+          {
+            "proto": "diag",
+            "score": 3,
+            "confidence": 0.3333333333333333,
+            "axis": "row",
+            "blocks": [
+              {
+                "block_index": 0,
+                "shift": -1,
+                "sign": 1,
+                "score": 1
+              },
+              {
+                "block_index": 1,
+                "shift": 0,
+                "sign": 1,
+                "score": 1
+              },
+              {
+                "block_index": 2,
+                "shift": -1,
+                "sign": 1,
+                "score": 1
+              }
+            ]
+          },
+          {
+            "proto": "L",
+            "score": 3,
+            "confidence": 0.3333333333333333,
+            "axis": "row",
+            "blocks": [
+              {
+                "block_index": 0,
+                "shift": -1,
+                "sign": 1,
+                "score": 1
+              },
+              {
+                "block_index": 1,
+                "shift": -1,
+                "sign": -1,
+                "score": 1
+              },
+              {
+                "block_index": 2,
+                "shift": -1,
+                "sign": -1,
+                "score": 1
+              }
+            ]
+          },
+          {
+            "proto": "cross",
+            "score": 2,
+            "confidence": 0.2222222222222222,
+            "axis": "row",
+            "blocks": [
+              {
+                "block_index": 0,
+                "shift": -1,
+                "sign": 1,
+                "score": 1
+              },
+              {
+                "block_index": 1,
+                "shift": -1,
+                "sign": -1,
+                "score": 0
+              },
+              {
+                "block_index": 2,
+                "shift": -1,
+                "sign": -1,
+                "score": 1
+              }
+            ]
+          },
+          {
+            "proto": "bars",
+            "score": 2,
+            "confidence": 0.2222222222222222,
+            "axis": "row",
+            "blocks": [
+              {
+                "block_index": 0,
+                "shift": -1,
+                "sign": 1,
+                "score": 1
+              },
+              {
+                "block_index": 1,
+                "shift": -1,
+                "sign": -1,
+                "score": 0
+              },
+              {
+                "block_index": 2,
+                "shift": -1,
+                "sign": 1,
+                "score": 1
+              }
+            ]
+          }
+        ]
+      },
+      "global_result": {
+        "best": {
+          "proto": "bars",
+          "transform": "I",
+          "score": 2,
+          "confidence": 0.2222222222222222
+        },
+        "all": [
+          {
+            "proto": "bars",
+            "transform": "I",
+            "score": 2,
+            "confidence": 0.2222222222222222
+          },
+          {
+            "proto": "bars",
+            "transform": "FV",
+            "score": 2,
+            "confidence": 0.2222222222222222
+          },
+          {
+            "proto": "diag",
+            "transform": "I",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "diag",
+            "transform": "R90",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "diag",
+            "transform": "R180",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "diag",
+            "transform": "R270",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "diag",
+            "transform": "FH",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "diag",
+            "transform": "FV",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "diag",
+            "transform": "FD",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "diag",
+            "transform": "FAD",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "bars",
+            "transform": "R90",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "bars",
+            "transform": "FD",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "checker",
+            "transform": "I",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "checker",
+            "transform": "R90",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "checker",
+            "transform": "R180",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "checker",
+            "transform": "R270",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "checker",
+            "transform": "FH",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "checker",
+            "transform": "FV",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "checker",
+            "transform": "FD",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "checker",
+            "transform": "FAD",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "cross",
+            "transform": "I",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "cross",
+            "transform": "R90",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "cross",
+            "transform": "R180",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "cross",
+            "transform": "R270",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "cross",
+            "transform": "FH",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "cross",
+            "transform": "FV",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "cross",
+            "transform": "FD",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "cross",
+            "transform": "FAD",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "L",
+            "transform": "I",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "L",
+            "transform": "R270",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "L",
+            "transform": "FH",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "L",
+            "transform": "FAD",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "bars",
+            "transform": "R270",
+            "score": -1,
+            "confidence": -0.1111111111111111
+          },
+          {
+            "proto": "bars",
+            "transform": "FAD",
+            "score": -1,
+            "confidence": -0.1111111111111111
+          },
+          {
+            "proto": "L",
+            "transform": "R90",
+            "score": -1,
+            "confidence": -0.1111111111111111
+          },
+          {
+            "proto": "L",
+            "transform": "R180",
+            "score": -1,
+            "confidence": -0.1111111111111111
+          },
+          {
+            "proto": "L",
+            "transform": "FV",
+            "score": -1,
+            "confidence": -0.1111111111111111
+          },
+          {
+            "proto": "L",
+            "transform": "FD",
+            "score": -1,
+            "confidence": -0.1111111111111111
+          },
+          {
+            "proto": "bars",
+            "transform": "R180",
+            "score": -2,
+            "confidence": -0.2222222222222222
+          },
+          {
+            "proto": "bars",
+            "transform": "FH",
+            "score": -2,
+            "confidence": -0.2222222222222222
+          }
+        ]
+      },
+      "reconciled": {
+        "mode": "local-first",
+        "proto": "checker",
+        "fused_confidence": 0.3056,
+        "local": {
+          "proto": "checker",
+          "score": 5,
+          "confidence": 0.5555555555555556,
+          "axis": "row",
+          "blocks": [
+            {
+              "block_index": 0,
+              "shift": -1,
+              "sign": 1,
+              "score": 2
+            },
+            {
+              "block_index": 1,
+              "shift": 0,
+              "sign": 1,
+              "score": 1
+            },
+            {
+              "block_index": 2,
+              "shift": -1,
+              "sign": 1,
+              "score": 2
+            }
+          ]
+        },
+        "global": {
+          "proto": "bars",
+          "transform": "I",
+          "score": 2,
+          "confidence": 0.2222222222222222
+        },
+        "agreement": false,
+        "contradiction_penalty": 0.0833
+      }
+    },
+    "projection": {
+      "predicted_label": "checker",
+      "mode": "local-first",
+      "confidence": 0.3056,
+      "rationale": "local/compositional evidence dominated",
+      "support": {
+        "local_proto": "checker",
+        "local_conf": 0.5555555555555556,
+        "global_proto": "bars",
+        "global_conf": 0.2222222222222222,
+        "agreement": false
+      }
+    }
+  },
+  "global_first_Lshape": {
+    "input_plane": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        -1
+      ],
+      [
+        1,
+        0,
+        -1
+      ]
+    ],
+    "hybrid": {
+      "local_result": {
+        "best": {
+          "proto": "diag",
+          "score": 3,
+          "confidence": 0.3333333333333333,
+          "axis": "row",
+          "blocks": [
+            {
+              "block_index": 0,
+              "shift": -1,
+              "sign": 1,
+              "score": 1
+            },
+            {
+              "block_index": 1,
+              "shift": -1,
+              "sign": 1,
+              "score": 1
+            },
+            {
+              "block_index": 2,
+              "shift": 0,
+              "sign": -1,
+              "score": 1
+            }
+          ]
+        },
+        "all": [
+          {
+            "proto": "diag",
+            "score": 3,
+            "confidence": 0.3333333333333333,
+            "axis": "row",
+            "blocks": [
+              {
+                "block_index": 0,
+                "shift": -1,
+                "sign": 1,
+                "score": 1
+              },
+              {
+                "block_index": 1,
+                "shift": -1,
+                "sign": 1,
+                "score": 1
+              },
+              {
+                "block_index": 2,
+                "shift": 0,
+                "sign": -1,
+                "score": 1
+              }
+            ]
+          },
+          {
+            "proto": "bars",
+            "score": 3,
+            "confidence": 0.3333333333333333,
+            "axis": "row",
+            "blocks": [
+              {
+                "block_index": 0,
+                "shift": -1,
+                "sign": 1,
+                "score": 3
+              },
+              {
+                "block_index": 1,
+                "shift": -1,
+                "sign": -1,
+                "score": 0
+              },
+              {
+                "block_index": 2,
+                "shift": -1,
+                "sign": -1,
+                "score": 0
+              }
+            ]
+          },
+          {
+            "proto": "checker",
+            "score": 3,
+            "confidence": 0.3333333333333333,
+            "axis": "row",
+            "blocks": [
+              {
+                "block_index": 0,
+                "shift": -1,
+                "sign": -1,
+                "score": 0
+              },
+              {
+                "block_index": 1,
+                "shift": -1,
+                "sign": 1,
+                "score": 1
+              },
+              {
+                "block_index": 2,
+                "shift": 0,
+                "sign": -1,
+                "score": 2
+              }
+            ]
+          },
+          {
+            "proto": "cross",
+            "score": 2,
+            "confidence": 0.2222222222222222,
+            "axis": "row",
+            "blocks": [
+              {
+                "block_index": 0,
+                "shift": -1,
+                "sign": 1,
+                "score": 1
+              },
+              {
+                "block_index": 1,
+                "shift": -1,
+                "sign": -1,
+                "score": 0
+              },
+              {
+                "block_index": 2,
+                "shift": -1,
+                "sign": 1,
+                "score": 1
+              }
+            ]
+          },
+          {
+            "proto": "L",
+            "score": 2,
+            "confidence": 0.2222222222222222,
+            "axis": "row",
+            "blocks": [
+              {
+                "block_index": 0,
+                "shift": -1,
+                "sign": 1,
+                "score": 1
+              },
+              {
+                "block_index": 1,
+                "shift": -1,
+                "sign": -1,
+                "score": 1
+              },
+              {
+                "block_index": 2,
+                "shift": -1,
+                "sign": -1,
+                "score": 0
+              }
+            ]
+          }
+        ]
+      },
+      "global_result": {
+        "best": {
+          "proto": "L",
+          "transform": "R270",
+          "score": 5,
+          "confidence": 0.5555555555555556
+        },
+        "all": [
+          {
+            "proto": "L",
+            "transform": "R270",
+            "score": 5,
+            "confidence": 0.5555555555555556
+          },
+          {
+            "proto": "L",
+            "transform": "FH",
+            "score": 5,
+            "confidence": 0.5555555555555556
+          },
+          {
+            "proto": "bars",
+            "transform": "R90",
+            "score": 4,
+            "confidence": 0.4444444444444444
+          },
+          {
+            "proto": "bars",
+            "transform": "FD",
+            "score": 4,
+            "confidence": 0.4444444444444444
+          },
+          {
+            "proto": "bars",
+            "transform": "I",
+            "score": 3,
+            "confidence": 0.3333333333333333
+          },
+          {
+            "proto": "bars",
+            "transform": "FV",
+            "score": 3,
+            "confidence": 0.3333333333333333
+          },
+          {
+            "proto": "diag",
+            "transform": "R90",
+            "score": 2,
+            "confidence": 0.2222222222222222
+          },
+          {
+            "proto": "diag",
+            "transform": "R270",
+            "score": 2,
+            "confidence": 0.2222222222222222
+          },
+          {
+            "proto": "diag",
+            "transform": "FH",
+            "score": 2,
+            "confidence": 0.2222222222222222
+          },
+          {
+            "proto": "diag",
+            "transform": "FV",
+            "score": 2,
+            "confidence": 0.2222222222222222
+          },
+          {
+            "proto": "checker",
+            "transform": "R90",
+            "score": 2,
+            "confidence": 0.2222222222222222
+          },
+          {
+            "proto": "checker",
+            "transform": "R270",
+            "score": 2,
+            "confidence": 0.2222222222222222
+          },
+          {
+            "proto": "checker",
+            "transform": "FH",
+            "score": 2,
+            "confidence": 0.2222222222222222
+          },
+          {
+            "proto": "checker",
+            "transform": "FV",
+            "score": 2,
+            "confidence": 0.2222222222222222
+          },
+          {
+            "proto": "L",
+            "transform": "I",
+            "score": 2,
+            "confidence": 0.2222222222222222
+          },
+          {
+            "proto": "L",
+            "transform": "FAD",
+            "score": 2,
+            "confidence": 0.2222222222222222
+          },
+          {
+            "proto": "cross",
+            "transform": "I",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "cross",
+            "transform": "R90",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "cross",
+            "transform": "R180",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "cross",
+            "transform": "R270",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "cross",
+            "transform": "FH",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "cross",
+            "transform": "FV",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "cross",
+            "transform": "FD",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "cross",
+            "transform": "FAD",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "L",
+            "transform": "R180",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "L",
+            "transform": "FD",
+            "score": 1,
+            "confidence": 0.1111111111111111
+          },
+          {
+            "proto": "diag",
+            "transform": "I",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "diag",
+            "transform": "R180",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "diag",
+            "transform": "FD",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "diag",
+            "transform": "FAD",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "L",
+            "transform": "R90",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "L",
+            "transform": "FV",
+            "score": 0,
+            "confidence": 0.0
+          },
+          {
+            "proto": "checker",
+            "transform": "I",
+            "score": -2,
+            "confidence": -0.2222222222222222
+          },
+          {
+            "proto": "checker",
+            "transform": "R180",
+            "score": -2,
+            "confidence": -0.2222222222222222
+          },
+          {
+            "proto": "checker",
+            "transform": "FD",
+            "score": -2,
+            "confidence": -0.2222222222222222
+          },
+          {
+            "proto": "checker",
+            "transform": "FAD",
+            "score": -2,
+            "confidence": -0.2222222222222222
+          },
+          {
+            "proto": "bars",
+            "transform": "R180",
+            "score": -3,
+            "confidence": -0.3333333333333333
+          },
+          {
+            "proto": "bars",
+            "transform": "FH",
+            "score": -3,
+            "confidence": -0.3333333333333333
+          },
+          {
+            "proto": "bars",
+            "transform": "R270",
+            "score": -4,
+            "confidence": -0.4444444444444444
+          },
+          {
+            "proto": "bars",
+            "transform": "FAD",
+            "score": -4,
+            "confidence": -0.4444444444444444
+          }
+        ]
+      },
+      "reconciled": {
+        "mode": "global-first",
+        "proto": "L",
+        "fused_confidence": 0.3611,
+        "local": {
+          "proto": "diag",
+          "score": 3,
+          "confidence": 0.3333333333333333,
+          "axis": "row",
+          "blocks": [
+            {
+              "block_index": 0,
+              "shift": -1,
+              "sign": 1,
+              "score": 1
+            },
+            {
+              "block_index": 1,
+              "shift": -1,
+              "sign": 1,
+              "score": 1
+            },
+            {
+              "block_index": 2,
+              "shift": 0,
+              "sign": -1,
+              "score": 1
+            }
+          ]
+        },
+        "global": {
+          "proto": "L",
+          "transform": "R270",
+          "score": 5,
+          "confidence": 0.5555555555555556
+        },
+        "agreement": false,
+        "contradiction_penalty": 0.0833
+      }
+    },
+    "projection": {
+      "predicted_label": "L",
+      "mode": "global-first",
+      "confidence": 0.3611,
+      "rationale": "global/geometric evidence dominated",
+      "support": {
+        "local_proto": "diag",
+        "local_conf": 0.3333333333333333,
+        "global_proto": "L",
+        "global_conf": 0.5555555555555556,
+        "agreement": false
+      }
+    }
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "CONSERVATIVE_FULL": [
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 10
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 6
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 5
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 4
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 4
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 2
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 1
+    },
+    {
+      "true": "HI",
+      "pred": "NO",
+      "count": 1
+    }
+  ],
+  "MODERATE_VERIFY": [
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 16
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 10
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "NO",
+      "count": 10
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 6
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 5
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 4
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 2
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 1
+    }
+  ],
+  "AGGRESSIVE_SPARSE_K2": [
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 16
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 10
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "NO",
+      "count": 10
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 6
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 5
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 4
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 2
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 1
+    }
+  ],
+  "AGGRESSIVE_SPARSE_K3": [
+    {
+      "true": "UNKNOWN",
+      "pred": "NO",
+      "count": 25
+    },
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 18
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 15
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 9
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 6
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 6
+    }
+  ],
+  "SPECULATIVE_REUSE_VERIFY": [
+    {
+      "true": "UNKNOWN",
+      "pred": "NO",
+      "count": 30
+    },
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 16
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 10
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 6
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 5
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 4
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 2
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 1
+    }
+  ],
+  "SPECULATIVE_REUSE_K3": [
+    {
+      "true": "UNKNOWN",
+      "pred": "NO",
+      "count": 30
+    },
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 16
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 10
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 6
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 5
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 4
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 2
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 1
+    }
+  ]
+}

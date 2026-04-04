@@ -1,0 +1,39 @@
+{
+  "sigma_v5": [
+    {
+      "candidate": "M2STAR",
+      "acc": 70.83,
+      "mirror": 7,
+      "rr": 1,
+      "top_confusions": {
+        "cross_right->cross_right": 11,
+        "L_right->L_right": 9,
+        "L_left->L_left": 7,
+        "cross_left->cross_left": 7,
+        "cross_left->cross_right": 4,
+        "L_left->cross_left": 3,
+        "L_right->cross_right": 3,
+        "L_left->L_right": 2,
+        "cross_left->L_right": 1,
+        "cross_right->cross_left": 1
+      }
+    },
+    {
+      "candidate": "A1T",
+      "acc": 70.83,
+      "mirror": 8,
+      "rr": 3,
+      "top_confusions": {
+        "L_right->L_right": 9,
+        "cross_right->cross_right": 9,
+        "L_left->L_left": 8,
+        "cross_left->cross_left": 8,
+        "cross_left->cross_right": 4,
+        "L_left->cross_left": 3,
+        "L_right->cross_right": 3,
+        "cross_right->cross_left": 3,
+        "L_left->L_right": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+variant,early_route_behavior_pct,mid_route_behavior_pct,late_route_behavior_pct
+BASELINE_POOLED,16.33,47.86,50.0
+CONSERVATIVE_SCALAR_ROUTE,17.67,50.0,50.0
+CONSERVATIVE_WIDE_INTERACTION_ROUTE,17.67,50.71,50.0

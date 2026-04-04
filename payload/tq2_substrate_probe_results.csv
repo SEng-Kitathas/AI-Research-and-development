@@ -1,0 +1,10 @@
+task,model,mean_accuracy,std,mean_accuracy_pct,std_pct
+Whole-plane invariant motif,Baseline,0.495833,0.030741,49.58,3.07
+Whole-plane invariant motif,WholeTransform,0.942222,0.038843,94.22,3.88
+Whole-plane invariant motif,Blockwise,0.483889,0.06768,48.39,6.77
+Block-composition invariant,Baseline,0.936389,0.013901,93.64,1.39
+Block-composition invariant,WholeTransform,0.777222,0.085306,77.72,8.53
+Block-composition invariant,Blockwise,0.936389,0.013901,93.64,1.39
+Majority-sign baseline,Baseline,0.920833,0.037846,92.08,3.78
+Majority-sign baseline,WholeTransform,0.755278,0.090527,75.53,9.05
+Majority-sign baseline,Blockwise,0.938889,0.055204,93.89,5.52

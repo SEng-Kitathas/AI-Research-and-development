@@ -1,0 +1,6 @@
+strategy,task,accuracy,macro_f1,relative_decode_cost,n_examples,accuracy_pct,macro_f1_pct
+PER_STEP_DECODE,stepwise family routing,0.725,0.6617236496903868,1.0,120,72.5,66.17
+LATENT_DECODE_EVERY2,stepwise family routing,0.6666666666666666,0.623374789714011,0.542,120,66.67,62.34
+LATENT_DECODE_EVERY3,stepwise family routing,0.6,0.5288461538461539,0.375,120,60.0,52.88
+LATENT_VERIFY_DECODE,stepwise family routing,0.725,0.6617236496903868,0.492,120,72.5,66.17
+LATENT_FINAL_ONLY,final family decode,0.6,0.4666666666666666,1.0,25,60.0,46.67

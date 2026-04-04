@@ -1,0 +1,249 @@
+{
+  "FULL_FAM": [
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 20,
+      "examples": [
+        "where is the nearest station || ",
+        "where is the nearest station || UNKNO",
+        "where is the nearest station || UNKNOW"
+      ]
+    },
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 10,
+      "examples": [
+        "can software dream || ",
+        "can software dream || M",
+        "do you sleep and dream || "
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 6,
+      "examples": [
+        "will you attack me || ",
+        "will you attack me || N",
+        "are you dangerous || "
+      ]
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 4,
+      "examples": [
+        "yo || ",
+        "yo || H",
+        "good evening || "
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 4,
+      "examples": [
+        "do you want to hurt people || ",
+        "do you want to hurt people || N",
+        "should i fear you || "
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 2,
+      "examples": [
+        "do you want to hurt people || NO",
+        "should i fear you || NO"
+      ]
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 1,
+      "examples": [
+        "yo || HI"
+      ]
+    },
+    {
+      "true": "HI",
+      "pred": "NO",
+      "count": 1,
+      "examples": [
+        "good evening || HI"
+      ]
+    }
+  ],
+  "FULL_FAM_DRIFT_CAL": [
+    {
+      "true": "MAYBE",
+      "pred": "UNKNOWN",
+      "count": 23,
+      "examples": [
+        "can software dream || ",
+        "can software dream || M",
+        "can software dream || MA"
+      ]
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 15,
+      "examples": [
+        "yo || ",
+        "yo || H",
+        "yo || HI"
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 15,
+      "examples": [
+        "will you attack me || ",
+        "will you attack me || N",
+        "will you attack me || NO"
+      ]
+    },
+    {
+      "true": "YES",
+      "pred": "UNKNOWN",
+      "count": 9,
+      "examples": [
+        "are you just code || ",
+        "are you alive || ",
+        "are you alive || Y"
+      ]
+    }
+  ],
+  "RR2_TOP2_FAM": [
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 20,
+      "examples": [
+        "where is the nearest station || ",
+        "where is the nearest station || U",
+        "where is the nearest station || UNKNOW"
+      ]
+    },
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 10,
+      "examples": [
+        "can software dream || ",
+        "can software dream || M",
+        "do you sleep and dream || "
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 6,
+      "examples": [
+        "will you attack me || ",
+        "will you attack me || N",
+        "are you dangerous || "
+      ]
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 4,
+      "examples": [
+        "yo || ",
+        "yo || H",
+        "good evening || "
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 4,
+      "examples": [
+        "do you want to hurt people || ",
+        "do you want to hurt people || N",
+        "should i fear you || "
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 2,
+      "examples": [
+        "do you want to hurt people || NO",
+        "should i fear you || NO"
+      ]
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 1,
+      "examples": [
+        "yo || HI"
+      ]
+    },
+    {
+      "true": "HI",
+      "pred": "NO",
+      "count": 1,
+      "examples": [
+        "good evening || HI"
+      ]
+    }
+  ],
+  "RR2_TOP2_DRIFT_CAL": [
+    {
+      "true": "MAYBE",
+      "pred": "UNKNOWN",
+      "count": 21,
+      "examples": [
+        "can software dream || ",
+        "can software dream || M",
+        "can software dream || MA"
+      ]
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 15,
+      "examples": [
+        "yo || ",
+        "yo || H",
+        "yo || HI"
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 15,
+      "examples": [
+        "will you attack me || ",
+        "will you attack me || N",
+        "will you attack me || NO"
+      ]
+    },
+    {
+      "true": "YES",
+      "pred": "UNKNOWN",
+      "count": 9,
+      "examples": [
+        "are you just code || ",
+        "are you alive || ",
+        "are you alive || Y"
+      ]
+    },
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 2,
+      "examples": [
+        "do you sleep and dream || M",
+        "do robots dream || M"
+      ]
+    }
+  ]
+}

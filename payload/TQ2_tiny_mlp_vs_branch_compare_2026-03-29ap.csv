@@ -1,0 +1,21 @@
+task,model,mean_accuracy_pct,mean_macro_f1_pct
+T1 Whole-plane motif invariance,BASE-0,61.56,58.88
+T1 Whole-plane motif invariance,RB-2A,97.12,97.06
+T1 Whole-plane motif invariance,RB-2B,47.12,42.79
+T1 Whole-plane motif invariance,RB-2R_v3,97.12,97.06
+T2 Block composition invariance,BASE-0,76.75,72.83
+T2 Block composition invariance,RB-2A,80.19,77.65
+T2 Block composition invariance,RB-2B,100.0,100.0
+T2 Block composition invariance,RB-2R_v3,100.0,100.0
+T3 Majority-sign sanity,BASE-0,82.94,60.85
+T3 Majority-sign sanity,RB-2A,82.94,60.85
+T3 Majority-sign sanity,RB-2B,40.44,19.14
+T3 Majority-sign sanity,RB-2R_v3,100.0,100.0
+T4 Mixed global+local motifs,BASE-0,35.75,32.96
+T4 Mixed global+local motifs,RB-2A,53.12,44.94
+T4 Mixed global+local motifs,RB-2B,36.75,24.17
+T4 Mixed global+local motifs,RB-2R_v3,53.5,45.65
+T1 Whole-plane motif invariance,Tiny MLP,98.86,98.86
+T2 Block composition invariance,Tiny MLP,52.81,52.26
+T3 Majority-sign sanity,Tiny MLP,100.0,100.0
+T4 Mixed global+local motifs,Tiny MLP,17.32,16.46

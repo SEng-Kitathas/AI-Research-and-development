@@ -1,0 +1,9 @@
+source_file,claim,evidence_strength,helps_with,stale_knowledge_correction,status
+UNIVERSAL_LM_RESEARCH_SOP_2026-03-29.md,"The SOP is now universal, with project-specific state isolated instead of spread through the whole document.",strong,"reuse, rehydration, anti-drift",Do not treat the SOP as only Singularity Works / TQ2 specific anymore.,promote
+UNIVERSAL_LM_RESEARCH_SOP_2026-03-29.md,VERIFY is an explicit hard brake in the master loop.,strong,"anti-mythology, anti-fake-progress",The operating loop is not PDER-only; it is PD-EV-R.,promote
+UNIVERSAL_LM_RESEARCH_SOP_2026-03-29.md,"Evaluation theater is a named failure mode that must be audited, not accepted as data.",strong,"benchmark integrity, readout-seam discipline",Do not treat identical non-distinct results as informative negatives.,promote
+UNIVERSAL_LM_RESEARCH_SOP_2026-03-29.md,Substrate claims require an empirical foothold before promotion.,strong,Project A hygiene,Do not let runtime wins silently validate the weight/substrate thesis.,promote
+UNIVERSAL_LM_RESEARCH_SOP_2026-03-29.md,Workstreams must be scored separately.,strong,avoiding category errors,Keep Project A and Project B scorecards separate.,promote
+LOAD_FIRST_REHYDRATION_NOTE_2026-03-29.md,The quick snapshot includes the current blocking seams and hard constraints.,strong,fast session recovery after compaction,"The session entry point is the rehydration note plus SOP, not ad hoc memory.",promote
+EXTRACTION_MANIFEST_r3.md,The MHT extraction formalized orphaned findings and process debts already identified in the thread.,medium,de-duplication and queue hygiene,Several old 'open questions' are already classified and should not be rediscovered from scratch.,promote
+SOP_UPGRADE_DELTA_r2_to_r3.md,The upgrade delta explicitly lists what changed and why.,strong,safe doctrine migration,"r3 supersedes r2 on scope, verify stage, evaluation theater, empirical foothold rules, and process-debt handling.",promote

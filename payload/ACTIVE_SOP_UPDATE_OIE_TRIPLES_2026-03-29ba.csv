@@ -1,0 +1,16 @@
+subject,predicate,object
+Universal Lab SOP Chimera,becomes,active canonical SOP
+Project-Wide Comprehensive SOP 2026-03-29au,becomes,deprecated SOP
+Master loop,includes,VERIFY as hard brake
+Evaluation theater,is,named failure mode
+Confirmatory experiments,require,preregistration with kill criterion
+Deviations,require,logging before analysis
+Workstreams,require,separate evaluation scorecards
+Shadow docs,are,first-class controlled artifacts
+Project baseline,remains,TQ2/CIL
+Project A and Project B,remain,separate scorecards
+K2,remains,live fast lane
+K3,remains,meta checkpoint lane only
+Dual-head seam,remains,implementation-audit priority
+MAYBE branch,remains,active abstention candidate
+Prototype-conditioned evaluation split,remains,active priority

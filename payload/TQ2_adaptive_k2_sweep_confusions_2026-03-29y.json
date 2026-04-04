@@ -1,0 +1,170 @@
+{
+  "FIXED_K2": [
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 22
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 12
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "NO",
+      "count": 12
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 7
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 6
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 6
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 2
+    },
+    {
+      "true": "YES",
+      "pred": "MAYBE",
+      "count": 2
+    }
+  ],
+  "ADAPTIVE_EASY_HARD": [
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 22
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 12
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "NO",
+      "count": 12
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 7
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 6
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 6
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 2
+    },
+    {
+      "true": "YES",
+      "pred": "MAYBE",
+      "count": 2
+    }
+  ],
+  "ADAPTIVE_VERIFY_ONLY": [
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 22
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 12
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "NO",
+      "count": 12
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 7
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 6
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 6
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 2
+    },
+    {
+      "true": "YES",
+      "pred": "MAYBE",
+      "count": 2
+    }
+  ],
+  "ADAPTIVE_HIGH_COMPRESSION": [
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 22
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 12
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "NO",
+      "count": 12
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 7
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 6
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 6
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 2
+    },
+    {
+      "true": "YES",
+      "pred": "MAYBE",
+      "count": 2
+    }
+  ]
+}

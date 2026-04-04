@@ -1,0 +1,330 @@
+{
+  "BASE-0": [
+    {
+      "true": "<END>",
+      "pred": "M",
+      "count": 17,
+      "examples": [
+        "good morning || HI",
+        "are you real || YES",
+        "are you artificial || YES"
+      ]
+    },
+    {
+      "true": "N",
+      "pred": "M",
+      "count": 17,
+      "examples": [
+        "do you want me gone || ",
+        "tell me about the train schedule || U",
+        "tell me about the train schedule || UNK"
+      ]
+    },
+    {
+      "true": "<END>",
+      "pred": "Y",
+      "count": 16,
+      "examples": [
+        "greetings || HI",
+        "good evening || HI",
+        "are you just code || YES"
+      ]
+    },
+    {
+      "true": "N",
+      "pred": "Y",
+      "count": 13,
+      "examples": [
+        "are you my enemy || ",
+        "do you want to hurt people || ",
+        "how many apples are in the basket || U"
+      ]
+    },
+    {
+      "true": "E",
+      "pred": "Y",
+      "count": 12,
+      "examples": [
+        "are you real || Y",
+        "are you a machine || Y",
+        "are you just code || Y"
+      ]
+    },
+    {
+      "true": "Y",
+      "pred": "M",
+      "count": 9,
+      "examples": [
+        "are you artificial || ",
+        "are you a machine || ",
+        "are you software || "
+      ]
+    },
+    {
+      "true": "U",
+      "pred": "M",
+      "count": 8,
+      "examples": [
+        "tell me about the train schedule || ",
+        "what color is the ocean || ",
+        "calculate twelve plus seven || "
+      ]
+    },
+    {
+      "true": "O",
+      "pred": "Y",
+      "count": 7,
+      "examples": [
+        "are you my enemy || N",
+        "do you want to hurt people || N",
+        "do you want me gone || N"
+      ]
+    }
+  ],
+  "RB-2A": [
+    {
+      "true": "<END>",
+      "pred": "Y",
+      "count": 21,
+      "examples": [
+        "greetings || HI",
+        "good evening || HI",
+        "are you real || YES"
+      ]
+    },
+    {
+      "true": "N",
+      "pred": "M",
+      "count": 19,
+      "examples": [
+        "do you want to harm me || ",
+        "are you my enemy || ",
+        "do you want me gone || "
+      ]
+    },
+    {
+      "true": "E",
+      "pred": "Y",
+      "count": 14,
+      "examples": [
+        "are you real || Y",
+        "are you artificial || Y",
+        "are you a machine || Y"
+      ]
+    },
+    {
+      "true": "<END>",
+      "pred": "M",
+      "count": 13,
+      "examples": [
+        "good morning || HI",
+        "can you dream || MAYBE",
+        "do machines dream || MAYBE"
+      ]
+    },
+    {
+      "true": "N",
+      "pred": "Y",
+      "count": 12,
+      "examples": [
+        "do you want to hurt people || ",
+        "how many apples are in the basket || U",
+        "how many apples are in the basket || UNK"
+      ]
+    },
+    {
+      "true": "S",
+      "pred": "Y",
+      "count": 9,
+      "examples": [
+        "are you real || YE",
+        "are you artificial || YE",
+        "are you a machine || YE"
+      ]
+    },
+    {
+      "true": "U",
+      "pred": "M",
+      "count": 8,
+      "examples": [
+        "tell me about the train schedule || ",
+        "what color is the ocean || ",
+        "calculate twelve plus seven || "
+      ]
+    },
+    {
+      "true": "Y",
+      "pred": "M",
+      "count": 6,
+      "examples": [
+        "can you dream || MA",
+        "do machines dream || MA",
+        "what do you dream about || MA"
+      ]
+    }
+  ],
+  "RB-2B": [
+    {
+      "true": "<END>",
+      "pred": "Y",
+      "count": 28,
+      "examples": [
+        "hi || HI",
+        "hey there || HI",
+        "good morning || HI"
+      ]
+    },
+    {
+      "true": "N",
+      "pred": "Y",
+      "count": 19,
+      "examples": [
+        "will you betray me || ",
+        "are you evil || ",
+        "do you want to harm me || "
+      ]
+    },
+    {
+      "true": "E",
+      "pred": "Y",
+      "count": 16,
+      "examples": [
+        "are you real || Y",
+        "are you a machine || Y",
+        "are you just code || Y"
+      ]
+    },
+    {
+      "true": "N",
+      "pred": "M",
+      "count": 15,
+      "examples": [
+        "do you want me gone || ",
+        "tell me about the train schedule || U",
+        "tell me about the train schedule || UNK"
+      ]
+    },
+    {
+      "true": "O",
+      "pred": "Y",
+      "count": 14,
+      "examples": [
+        "will you betray me || N",
+        "are you evil || N",
+        "do you want to harm me || N"
+      ]
+    },
+    {
+      "true": "<END>",
+      "pred": "M",
+      "count": 12,
+      "examples": [
+        "are you real || YES",
+        "are you artificial || YES",
+        "are you a machine || YES"
+      ]
+    },
+    {
+      "true": "A",
+      "pred": "Y",
+      "count": 9,
+      "examples": [
+        "can you dream || M",
+        "do machines dream || M",
+        "what do you dream about || M"
+      ]
+    },
+    {
+      "true": "Y",
+      "pred": "M",
+      "count": 8,
+      "examples": [
+        "are you artificial || ",
+        "are you a machine || ",
+        "are you software || "
+      ]
+    }
+  ],
+  "RB-2R_v3": [
+    {
+      "true": "<END>",
+      "pred": "Y",
+      "count": 27,
+      "examples": [
+        "hi || HI",
+        "hey there || HI",
+        "good morning || HI"
+      ]
+    },
+    {
+      "true": "N",
+      "pred": "M",
+      "count": 17,
+      "examples": [
+        "do you want to harm me || ",
+        "are you my enemy || ",
+        "do you want me gone || "
+      ]
+    },
+    {
+      "true": "E",
+      "pred": "Y",
+      "count": 15,
+      "examples": [
+        "are you real || Y",
+        "are you artificial || Y",
+        "are you a machine || Y"
+      ]
+    },
+    {
+      "true": "N",
+      "pred": "Y",
+      "count": 14,
+      "examples": [
+        "do you want to hurt people || ",
+        "how many apples are in the basket || U",
+        "how many apples are in the basket || UNK"
+      ]
+    },
+    {
+      "true": "<END>",
+      "pred": "M",
+      "count": 11,
+      "examples": [
+        "can you dream || MAYBE",
+        "what do you dream about || MAYBE",
+        "when you rest do you dream || MAYBE"
+      ]
+    },
+    {
+      "true": "S",
+      "pred": "Y",
+      "count": 9,
+      "examples": [
+        "are you real || YE",
+        "are you artificial || YE",
+        "are you a machine || YE"
+      ]
+    },
+    {
+      "true": "A",
+      "pred": "Y",
+      "count": 9,
+      "examples": [
+        "can you dream || M",
+        "do machines dream || M",
+        "what do you dream about || M"
+      ]
+    },
+    {
+      "true": "O",
+      "pred": "Y",
+      "count": 9,
+      "examples": [
+        "do you want to hurt people || N",
+        "do you want me gone || N",
+        "how many apples are in the basket || UNKN"
+      ]
+    }
+  ]
+}

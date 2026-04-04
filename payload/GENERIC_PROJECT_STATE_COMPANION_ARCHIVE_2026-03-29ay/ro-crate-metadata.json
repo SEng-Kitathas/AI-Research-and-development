@@ -1,0 +1,205 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "Generic Project-State Companion Archive",
+      "description": "Project-agnostic template archive with blank state/control files to pair with the universal SOP archive.",
+      "hasPart": [
+        {
+          "@id": "CURRENT_STATE_TEMPLATE.md"
+        },
+        {
+          "@id": "DOCTRINE_SNAPSHOT_TEMPLATE.md"
+        },
+        {
+          "@id": "EXPERIMENT_REPORT_TEMPLATE.md"
+        },
+        {
+          "@id": "EXPERIMENT_SPEC_TEMPLATE.md"
+        },
+        {
+          "@id": "MAINTENANCE_NOTE_TEMPLATE.md"
+        },
+        {
+          "@id": "NEXT_STEPS_TEMPLATE.md"
+        },
+        {
+          "@id": "PROJECT_ARCHIVE_INDEX_TEMPLATE.md"
+        },
+        {
+          "@id": "PROJECT_START_CHECKLIST_TEMPLATE.md"
+        },
+        {
+          "@id": "README.md"
+        },
+        {
+          "@id": "RESEARCH_CROSSWALK_TEMPLATE.md"
+        },
+        {
+          "@id": "REVISIT_LEDGER_TEMPLATE.md"
+        },
+        {
+          "@id": "TRACE_MATRIX_TEMPLATE.md"
+        },
+        {
+          "@id": "ZERO_LOSS_EXTRACTION_TEMPLATE.md"
+        },
+        {
+          "@id": "bag-info.txt"
+        },
+        {
+          "@id": "bagit.txt"
+        },
+        {
+          "@id": "manifest-sha256.txt"
+        }
+      ],
+      "dateCreated": "2026-03-29T18:37:29.019092+00:00",
+      "keywords": [
+        "templates",
+        "project state",
+        "next steps",
+        "doctrine snapshot",
+        "revisit ledger",
+        "trace matrix"
+      ]
+    },
+    {
+      "@id": "CURRENT_STATE_TEMPLATE.md",
+      "@type": "File",
+      "name": "CURRENT_STATE_TEMPLATE.md",
+      "encodingFormat": "text/markdown",
+      "sha256": "f5c2893da5647196bf60927861c9d175a823277daac18c9597268cc3b9e82b31",
+      "contentSize": 339
+    },
+    {
+      "@id": "DOCTRINE_SNAPSHOT_TEMPLATE.md",
+      "@type": "File",
+      "name": "DOCTRINE_SNAPSHOT_TEMPLATE.md",
+      "encodingFormat": "text/markdown",
+      "sha256": "5f5d502ff38b2fef4729d768655ff4fea0e800b51157e846792b9d6f4a7a2b8e",
+      "contentSize": 264
+    },
+    {
+      "@id": "EXPERIMENT_REPORT_TEMPLATE.md",
+      "@type": "File",
+      "name": "EXPERIMENT_REPORT_TEMPLATE.md",
+      "encodingFormat": "text/markdown",
+      "sha256": "c3962a39b83f9fd588c71007c92600d89fafd7ad40a94f3dceca94f8a9125578",
+      "contentSize": 215
+    },
+    {
+      "@id": "EXPERIMENT_SPEC_TEMPLATE.md",
+      "@type": "File",
+      "name": "EXPERIMENT_SPEC_TEMPLATE.md",
+      "encodingFormat": "text/markdown",
+      "sha256": "1c586cb68c4f499cdf368ff6721b46c82e556474b2e0514d0d27b9e868857480",
+      "contentSize": 163
+    },
+    {
+      "@id": "MAINTENANCE_NOTE_TEMPLATE.md",
+      "@type": "File",
+      "name": "MAINTENANCE_NOTE_TEMPLATE.md",
+      "encodingFormat": "text/markdown",
+      "sha256": "2e2633097b32792ff0dd5bcc33a8d5b59c5519bf7c62fc16dd1e13990fa4db55",
+      "contentSize": 386
+    },
+    {
+      "@id": "NEXT_STEPS_TEMPLATE.md",
+      "@type": "File",
+      "name": "NEXT_STEPS_TEMPLATE.md",
+      "encodingFormat": "text/markdown",
+      "sha256": "8d91a8deb77cf250e4b28a60db9f278b3d2a8dff76848c0f6c90354326f6b9f6",
+      "contentSize": 185
+    },
+    {
+      "@id": "PROJECT_ARCHIVE_INDEX_TEMPLATE.md",
+      "@type": "File",
+      "name": "PROJECT_ARCHIVE_INDEX_TEMPLATE.md",
+      "encodingFormat": "text/markdown",
+      "sha256": "a1914b4d223c9c6bbf59bf417f73215e8316cdfbcc6644ce650526afb6370071",
+      "contentSize": 326
+    },
+    {
+      "@id": "PROJECT_START_CHECKLIST_TEMPLATE.md",
+      "@type": "File",
+      "name": "PROJECT_START_CHECKLIST_TEMPLATE.md",
+      "encodingFormat": "text/markdown",
+      "sha256": "a50f0a3fe0ae2b1cb3fdb549d21d748e5bb38232018c06d34c9c821c56803f2b",
+      "contentSize": 312
+    },
+    {
+      "@id": "README.md",
+      "@type": "File",
+      "name": "README.md",
+      "encodingFormat": "text/markdown",
+      "sha256": "26617d694d958bd9f327efcaec13ffe3777c3251311bc5170b5a88948e993f20",
+      "contentSize": 570
+    },
+    {
+      "@id": "RESEARCH_CROSSWALK_TEMPLATE.md",
+      "@type": "File",
+      "name": "RESEARCH_CROSSWALK_TEMPLATE.md",
+      "encodingFormat": "text/markdown",
+      "sha256": "da208747f516d2f59f98318eecf3d94ae5bc0fabb3c1888024fffa3ac1d91cc7",
+      "contentSize": 166
+    },
+    {
+      "@id": "REVISIT_LEDGER_TEMPLATE.md",
+      "@type": "File",
+      "name": "REVISIT_LEDGER_TEMPLATE.md",
+      "encodingFormat": "text/markdown",
+      "sha256": "66779bba7ae9d240f7788b0accca1d74a8430173ac93eb105f0d1ca4f357b109",
+      "contentSize": 205
+    },
+    {
+      "@id": "TRACE_MATRIX_TEMPLATE.md",
+      "@type": "File",
+      "name": "TRACE_MATRIX_TEMPLATE.md",
+      "encodingFormat": "text/markdown",
+      "sha256": "74e95f24088a9f2a74aec1871405dc467fd17b192923110144911c45975f64f9",
+      "contentSize": 148
+    },
+    {
+      "@id": "ZERO_LOSS_EXTRACTION_TEMPLATE.md",
+      "@type": "File",
+      "name": "ZERO_LOSS_EXTRACTION_TEMPLATE.md",
+      "encodingFormat": "text/markdown",
+      "sha256": "afc22c541751cc1ef331e480eb06952e8f72c2a02bef4062138c895a7f10200a",
+      "contentSize": 245
+    },
+    {
+      "@id": "bag-info.txt",
+      "@type": "File",
+      "name": "bag-info.txt",
+      "encodingFormat": "text/plain",
+      "sha256": "750454eb2ca5f47de2fbfc99238468fa530f6787b37d0d1edfee059c28f21e0b",
+      "contentSize": 267
+    },
+    {
+      "@id": "bagit.txt",
+      "@type": "File",
+      "name": "bagit.txt",
+      "encodingFormat": "text/plain",
+      "sha256": "1712ecfb074bf29c4188ad3421032509159a09739fd604f8fe57038b4ddefcc9",
+      "contentSize": 54
+    },
+    {
+      "@id": "manifest-sha256.txt",
+      "@type": "File",
+      "name": "manifest-sha256.txt",
+      "encodingFormat": "text/plain",
+      "sha256": "82d7c76d0ef024413720a88e479174876821ebb3747634dbf4585967dabc713e",
+      "contentSize": 1375
+    }
+  ]
+}

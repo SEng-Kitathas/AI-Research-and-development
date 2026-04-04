@@ -1,0 +1,21 @@
+subject,predicate,object
+Prototype binding,is the dominant source of,TQ2 advantage
+Transform family without prototype binding,loses to,LogReg by 12–21pp on T1/T2/T4
+Transform family with bound prototype,beats,LogReg by 11–15pp on T1/T2/T4
+Prototype knowledge gain,exceeds,transform family contribution
+LogReg,is the correct external baseline for,ternary plane data
+MLP,underperforms,LogReg by 19–42pp on T1/T2/T4
+BASE-0 paradox in text,was caused by,wrong external baseline choice
+Text-encoded ternary planes,are not compatible with,geometric transforms as default invariances
+Text domain,needs,text-specific transform family or better encoder
+z_MAYBE ablation,improves,HI/YES/NO/UNKNOWN routing
+z_MAYBE raw ablation,destroys,MAYBE routing
+MAYBE family,should be treated as,uncertainty/abstention signal
+Prototype binding quality,is a first-class variable in,benchmark interpretation
+Bound-prototype condition,must be separated from,estimated-prototype condition
+Forge/RB-5 distillation bridge,is required for,making substrate advantage real
+Dual-head readout result,is likely,an implementation defect rather than an informative negative result
+Multi-path collapse under K2,remains,open and urgent
+Prototype binding,is isomorphic to,key-value memory / exemplar retrieval reference quality
+MAYBE-as-abstention,is isomorphic to,confidence-gated OOD / reject-option classification
+Text-specific transform branch,should be opened if,text-appropriate transforms outperform geometric transforms

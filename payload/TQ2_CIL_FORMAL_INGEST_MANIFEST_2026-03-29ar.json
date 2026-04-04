@@ -1,0 +1,54 @@
+{
+  "ingest_version": "2026-03-29ar",
+  "created_utc": "2026-03-29T16:38:21.854987+00:00",
+  "root": "/mnt/data",
+  "artifact_count": 264,
+  "families": [
+    "control_layer",
+    "k2_k3",
+    "latent_reasoning",
+    "misc",
+    "project_a_distillation",
+    "route_readout",
+    "runtime_benchmark",
+    "text_path"
+  ],
+  "category_counts": {
+    "result": 74,
+    "experiment": 53,
+    "control": 49,
+    "document": 49,
+    "doctrine": 24,
+    "package": 6,
+    "other": 5,
+    "source": 4
+  },
+  "family_counts": {
+    "misc": 96,
+    "control_layer": 54,
+    "route_readout": 33,
+    "text_path": 30,
+    "latent_reasoning": 20,
+    "runtime_benchmark": 14,
+    "k2_k3": 13,
+    "project_a_distillation": 4
+  },
+  "incumbent_baseline": {
+    "substrate": "TQ2",
+    "memory": "CIL",
+    "fast_lane": "K2",
+    "meta_lane": "K3 summary/checkpoint only",
+    "family_head": "conservative",
+    "route_head": "wide interaction-aware",
+    "macro_track": "derived K2\u2192K3, mild positive, provisional"
+  },
+  "retrieval_packets": [
+    "control_layer",
+    "route_readout_seam",
+    "k2_k3_macro_micro",
+    "text_path",
+    "project_a_distillation",
+    "external_calibration",
+    "sources_and_captures"
+  ]
+}

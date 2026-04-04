@@ -1,0 +1,506 @@
+{
+  "PER_STEP_DECODE_step2": [
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 13
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 6
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 6
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 6
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 6
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 2
+    },
+    {
+      "true": "YES",
+      "pred": "MAYBE",
+      "count": 2
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 2
+    }
+  ],
+  "K2_LATENT_REUSE_step2": [
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 13
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 12
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 7
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 6
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 6
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "NO",
+      "count": 6
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 2
+    },
+    {
+      "true": "YES",
+      "pred": "MAYBE",
+      "count": 2
+    }
+  ],
+  "PER_STEP_DECODE_step4": [
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 13
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 10
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 6
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 6
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 6
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 4
+    },
+    {
+      "true": "YES",
+      "pred": "MAYBE",
+      "count": 4
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 4
+    }
+  ],
+  "K2_LATENT_REUSE_step4": [
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 19
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 12
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "NO",
+      "count": 12
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 8
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 6
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 6
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 6
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 6
+    }
+  ],
+  "PER_STEP_DECODE_step6": [
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 21
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 12
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 10
+    },
+    {
+      "true": "HI",
+      "pred": "NO",
+      "count": 7
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 6
+    },
+    {
+      "true": "YES",
+      "pred": "MAYBE",
+      "count": 6
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 6
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "NO",
+      "count": 6
+    }
+  ],
+  "K2_LATENT_REUSE_step6": [
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 25
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 12
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "NO",
+      "count": 12
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 8
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 8
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 8
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 6
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 6
+    }
+  ],
+  "PER_STEP_DECODE_step8": [
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 24
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 18
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "NO",
+      "count": 12
+    },
+    {
+      "true": "HI",
+      "pred": "NO",
+      "count": 10
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 10
+    },
+    {
+      "true": "YES",
+      "pred": "MAYBE",
+      "count": 8
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 6
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 6
+    }
+  ],
+  "K2_LATENT_REUSE_step8": [
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 31
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "NO",
+      "count": 18
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 12
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 8
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 8
+    },
+    {
+      "true": "HI",
+      "pred": "NO",
+      "count": 8
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 8
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 6
+    }
+  ],
+  "PER_STEP_DECODE_step10": [
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 24
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 18
+    },
+    {
+      "true": "HI",
+      "pred": "NO",
+      "count": 14
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "NO",
+      "count": 12
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 11
+    },
+    {
+      "true": "YES",
+      "pred": "MAYBE",
+      "count": 9
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 6
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 6
+    }
+  ],
+  "K2_LATENT_REUSE_step10": [
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 34
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "NO",
+      "count": 30
+    },
+    {
+      "true": "HI",
+      "pred": "NO",
+      "count": 12
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 12
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 8
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 8
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 8
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 6
+    }
+  ],
+  "PER_STEP_DECODE_step12": [
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 32
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "NO",
+      "count": 24
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 18
+    },
+    {
+      "true": "HI",
+      "pred": "NO",
+      "count": 16
+    },
+    {
+      "true": "YES",
+      "pred": "MAYBE",
+      "count": 11
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 11
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 10
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 10
+    }
+  ],
+  "K2_LATENT_REUSE_step12": [
+    {
+      "true": "UNKNOWN",
+      "pred": "NO",
+      "count": 42
+    },
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 34
+    },
+    {
+      "true": "HI",
+      "pred": "NO",
+      "count": 16
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 12
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 8
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 8
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 8
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 6
+    }
+  ]
+}

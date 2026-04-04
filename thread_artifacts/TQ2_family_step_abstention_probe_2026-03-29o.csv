@@ -1,0 +1,5 @@
+strategy,accuracy,macro_f1,unknown_overcommit,relative_scoring_cost,accuracy_pct,macro_f1_pct,unknown_overcommit_pct
+FULL_FAM,0.6,0.5833362140984646,0.5,1.0,60.0,58.33,50.0
+FULL_FAM_FSTEP_CAL,0.6,0.6101630658925795,0.5,1.0,60.0,61.02,50.0
+RR2_TOP2_FAM,0.6,0.5833362140984646,0.5,0.7,60.0,58.33,50.0
+RR2_TOP2_FSTEP_CAL,0.6,0.6101630658925795,0.5,0.7,60.0,61.02,50.0

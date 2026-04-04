@@ -1,0 +1,4 @@
+mode,early_route_probe_pct,mid_route_probe_pct,late_route_probe_pct,pattern
+per_step,61.11,71.76,91.67,emerges_then_holds
+k2,40.56,79.63,100.0,emerges_then_holds
+adaptive_k2,40.56,79.63,100.0,emerges_then_holds

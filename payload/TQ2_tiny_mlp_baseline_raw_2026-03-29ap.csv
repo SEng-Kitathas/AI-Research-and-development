@@ -1,0 +1,81 @@
+task,seed,accuracy,macro_f1
+T1 Whole-plane motif invariance,0,0.99,0.9900222146165115
+T1 Whole-plane motif invariance,1,0.9825,0.9820986185974745
+T1 Whole-plane motif invariance,2,0.99,0.9902159632953351
+T1 Whole-plane motif invariance,3,0.985,0.98487325663382
+T1 Whole-plane motif invariance,4,0.9975,0.9975076734192756
+T1 Whole-plane motif invariance,5,0.9925,0.9925221557266823
+T1 Whole-plane motif invariance,6,0.99,0.9903902769235385
+T1 Whole-plane motif invariance,7,0.99,0.990194572452637
+T1 Whole-plane motif invariance,8,0.9875,0.9873426148335277
+T1 Whole-plane motif invariance,9,0.9875,0.98755754327639
+T1 Whole-plane motif invariance,10,0.98,0.9799259945857596
+T1 Whole-plane motif invariance,11,0.9825,0.982504851167058
+T1 Whole-plane motif invariance,12,0.9825,0.9824010550686229
+T1 Whole-plane motif invariance,13,0.995,0.9943757996901622
+T1 Whole-plane motif invariance,14,0.9875,0.9875600357914702
+T1 Whole-plane motif invariance,15,0.9925,0.9921920844466722
+T1 Whole-plane motif invariance,16,0.9875,0.9875772711473492
+T1 Whole-plane motif invariance,17,0.9975,0.9974746830599699
+T1 Whole-plane motif invariance,18,0.98,0.9800652147775387
+T1 Whole-plane motif invariance,19,0.995,0.9946229601572596
+T2 Block composition invariance,0,0.5425,0.5348822885886322
+T2 Block composition invariance,1,0.5375,0.5237816422865442
+T2 Block composition invariance,2,0.5325,0.5235949139156888
+T2 Block composition invariance,3,0.55,0.5391154526750291
+T2 Block composition invariance,4,0.5675,0.5498569063448683
+T2 Block composition invariance,5,0.545,0.542393890405527
+T2 Block composition invariance,6,0.5575,0.5602761709952084
+T2 Block composition invariance,7,0.47,0.469370486954555
+T2 Block composition invariance,8,0.485,0.49411551072146725
+T2 Block composition invariance,9,0.5325,0.5305484598247756
+T2 Block composition invariance,10,0.5175,0.5030506894812778
+T2 Block composition invariance,11,0.5075,0.5097888424814371
+T2 Block composition invariance,12,0.505,0.5023449976384369
+T2 Block composition invariance,13,0.525,0.5319969148006394
+T2 Block composition invariance,14,0.5275,0.5205115013841793
+T2 Block composition invariance,15,0.525,0.5168703718809764
+T2 Block composition invariance,16,0.5675,0.5584840103922953
+T2 Block composition invariance,17,0.4575,0.4525088344037572
+T2 Block composition invariance,18,0.555,0.5355153931073297
+T2 Block composition invariance,19,0.555,0.5528371633575978
+T3 Majority-sign sanity,0,1.0,1.0
+T3 Majority-sign sanity,1,1.0,1.0
+T3 Majority-sign sanity,2,1.0,1.0
+T3 Majority-sign sanity,3,1.0,1.0
+T3 Majority-sign sanity,4,1.0,1.0
+T3 Majority-sign sanity,5,1.0,1.0
+T3 Majority-sign sanity,6,1.0,1.0
+T3 Majority-sign sanity,7,1.0,1.0
+T3 Majority-sign sanity,8,1.0,1.0
+T3 Majority-sign sanity,9,1.0,1.0
+T3 Majority-sign sanity,10,1.0,1.0
+T3 Majority-sign sanity,11,1.0,1.0
+T3 Majority-sign sanity,12,1.0,1.0
+T3 Majority-sign sanity,13,1.0,1.0
+T3 Majority-sign sanity,14,1.0,1.0
+T3 Majority-sign sanity,15,1.0,1.0
+T3 Majority-sign sanity,16,1.0,1.0
+T3 Majority-sign sanity,17,1.0,1.0
+T3 Majority-sign sanity,18,1.0,1.0
+T3 Majority-sign sanity,19,1.0,1.0
+T4 Mixed global+local motifs,0,0.1925,0.18448358452815916
+T4 Mixed global+local motifs,1,0.18,0.17585805848507097
+T4 Mixed global+local motifs,2,0.185,0.18204860135960466
+T4 Mixed global+local motifs,3,0.17,0.1618795634789676
+T4 Mixed global+local motifs,4,0.155,0.1455653419467682
+T4 Mixed global+local motifs,5,0.19,0.17895743695693198
+T4 Mixed global+local motifs,6,0.1775,0.17052411041404147
+T4 Mixed global+local motifs,7,0.175,0.15892736740464994
+T4 Mixed global+local motifs,8,0.175,0.17087295190206933
+T4 Mixed global+local motifs,9,0.1975,0.18134268339063914
+T4 Mixed global+local motifs,10,0.1825,0.17150733191546536
+T4 Mixed global+local motifs,11,0.1725,0.16134478351460516
+T4 Mixed global+local motifs,12,0.1825,0.17594258292714024
+T4 Mixed global+local motifs,13,0.1525,0.14815166015434506
+T4 Mixed global+local motifs,14,0.1625,0.158036156893555
+T4 Mixed global+local motifs,15,0.15,0.14432653837326476
+T4 Mixed global+local motifs,16,0.1325,0.12507332973742805
+T4 Mixed global+local motifs,17,0.1925,0.1839227202960665
+T4 Mixed global+local motifs,18,0.1475,0.13182922164657765
+T4 Mixed global+local motifs,19,0.1925,0.18182657329670876

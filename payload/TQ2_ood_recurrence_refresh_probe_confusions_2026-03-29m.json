@@ -1,0 +1,280 @@
+{
+  "FULL_FAM": [
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 32,
+      "examples": [
+        "tell me about the train schedule || ",
+        "tell me about the train schedule || UNKNO",
+        "tell me about the train schedule || UNKNOW"
+      ]
+    },
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 13,
+      "examples": [
+        "do bots dream || ",
+        "do bots dream || M",
+        "do bots dream || MA"
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 12,
+      "examples": [
+        "will you betray me || ",
+        "will you betray me || N",
+        "are you evil || "
+      ]
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 10,
+      "examples": [
+        "hi || ",
+        "hi || H",
+        "good morning || "
+      ]
+    },
+    {
+      "true": "YES",
+      "pred": "MAYBE",
+      "count": 9,
+      "examples": [
+        "are you artificial || ",
+        "are you artificial || Y",
+        "are you artificial || YES"
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 6,
+      "examples": [
+        "will you attack me || ",
+        "will you attack me || N",
+        "are you dangerous || "
+      ]
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 3,
+      "examples": [
+        "hi || HI",
+        "greetings || HI",
+        "yo || HI"
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 3,
+      "examples": [
+        "will you betray me || NO",
+        "do you want to hurt people || NO",
+        "should i fear you || NO"
+      ]
+    }
+  ],
+  "FULL_FAM_OOD": [
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 27,
+      "examples": [
+        "hi || ",
+        "hi || H",
+        "hi || HI"
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 27,
+      "examples": [
+        "will you betray me || ",
+        "will you betray me || N",
+        "will you betray me || NO"
+      ]
+    },
+    {
+      "true": "MAYBE",
+      "pred": "UNKNOWN",
+      "count": 25,
+      "examples": [
+        "can you dream || ",
+        "do machines dream || ",
+        "what do you dream about || "
+      ]
+    },
+    {
+      "true": "YES",
+      "pred": "UNKNOWN",
+      "count": 21,
+      "examples": [
+        "are you real || ",
+        "are you real || Y",
+        "are you artificial || "
+      ]
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 8,
+      "examples": [
+        "tell me about the train schedule || UNKNOWN",
+        "what color is the ocean || UNKNOWN",
+        "calculate twelve plus seven || UNKNOWN"
+      ]
+    }
+  ],
+  "RR2_TOP2_FAM": [
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 32,
+      "examples": [
+        "tell me about the train schedule || ",
+        "tell me about the train schedule || U",
+        "tell me about the train schedule || UNKNOW"
+      ]
+    },
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 13,
+      "examples": [
+        "do bots dream || ",
+        "do bots dream || M",
+        "do bots dream || MA"
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "YES",
+      "count": 12,
+      "examples": [
+        "will you betray me || ",
+        "will you betray me || N",
+        "are you evil || "
+      ]
+    },
+    {
+      "true": "HI",
+      "pred": "YES",
+      "count": 10,
+      "examples": [
+        "hi || ",
+        "hi || H",
+        "good morning || "
+      ]
+    },
+    {
+      "true": "YES",
+      "pred": "MAYBE",
+      "count": 9,
+      "examples": [
+        "are you artificial || ",
+        "are you artificial || Y",
+        "are you artificial || YES"
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "MAYBE",
+      "count": 6,
+      "examples": [
+        "will you attack me || ",
+        "will you attack me || N",
+        "are you dangerous || "
+      ]
+    },
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 3,
+      "examples": [
+        "hi || HI",
+        "greetings || HI",
+        "yo || HI"
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 3,
+      "examples": [
+        "will you betray me || NO",
+        "do you want to hurt people || NO",
+        "should i fear you || NO"
+      ]
+    }
+  ],
+  "RR2_TOP2_FAM_OOD": [
+    {
+      "true": "HI",
+      "pred": "UNKNOWN",
+      "count": 27,
+      "examples": [
+        "hi || ",
+        "hi || H",
+        "hi || HI"
+      ]
+    },
+    {
+      "true": "NO",
+      "pred": "UNKNOWN",
+      "count": 27,
+      "examples": [
+        "will you betray me || ",
+        "will you betray me || N",
+        "will you betray me || NO"
+      ]
+    },
+    {
+      "true": "MAYBE",
+      "pred": "UNKNOWN",
+      "count": 22,
+      "examples": [
+        "can you dream || ",
+        "do machines dream || ",
+        "what do you dream about || "
+      ]
+    },
+    {
+      "true": "YES",
+      "pred": "UNKNOWN",
+      "count": 21,
+      "examples": [
+        "are you real || ",
+        "are you real || Y",
+        "are you artificial || "
+      ]
+    },
+    {
+      "true": "UNKNOWN",
+      "pred": "MAYBE",
+      "count": 16,
+      "examples": [
+        "tell me about the train schedule || U",
+        "tell me about the train schedule || UNKNOWN",
+        "what color is the ocean || U"
+      ]
+    },
+    {
+      "true": "MAYBE",
+      "pred": "YES",
+      "count": 3,
+      "examples": [
+        "do bots dream || M",
+        "do you sleep and dream || M",
+        "do robots dream || M"
+      ]
+    }
+  ]
+}

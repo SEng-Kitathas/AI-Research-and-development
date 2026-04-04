@@ -1,0 +1,11 @@
+task,model,feature_map,accuracy,macro_f1,accuracy_pct,macro_f1_pct
+T2 Block composition invariance,Teacher MLP,raw_9,0.546,0.5472181592185112,54.6,54.72
+T2 Block composition invariance,Student linear distilled,raw_9,0.276,0.25311866110764414,27.6,25.31
+T2 Block composition invariance,Student ternary distilled,raw_9,0.262,0.21639818048379234,26.2,21.64
+T2 Block composition invariance,Student linear distilled,raw_9_plus_pairwise_45,0.566,0.5554198144668887,56.6,55.54
+T2 Block composition invariance,Student ternary distilled,raw_9_plus_pairwise_45,0.526,0.5291641212350859,52.6,52.92
+T4 Mixed global+local motifs,Teacher MLP,raw_9,0.224,0.21894828193436672,22.4,21.89
+T4 Mixed global+local motifs,Student linear distilled,raw_9,0.098,0.0899821391441461,9.8,9.0
+T4 Mixed global+local motifs,Student ternary distilled,raw_9,0.096,0.09372089372007887,9.6,9.37
+T4 Mixed global+local motifs,Student linear distilled,raw_9_plus_pairwise_45,0.134,0.1266558793809209,13.4,12.67
+T4 Mixed global+local motifs,Student ternary distilled,raw_9_plus_pairwise_45,0.112,0.10844077489744026,11.2,10.84

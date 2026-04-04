@@ -1,0 +1,303 @@
+{
+  "T1 Whole-plane motif invariance::BASE-0": [
+    {
+      "true": "bars",
+      "pred": "L",
+      "count": 179
+    },
+    {
+      "true": "diag",
+      "pred": "cross",
+      "count": 177
+    },
+    {
+      "true": "L",
+      "pred": "cross",
+      "count": 110
+    },
+    {
+      "true": "bars",
+      "pred": "cross",
+      "count": 98
+    },
+    {
+      "true": "L",
+      "pred": "diag",
+      "count": 14
+    }
+  ],
+  "T1 Whole-plane motif invariance::RB-2A": [
+    {
+      "true": "L",
+      "pred": "bars",
+      "count": 18
+    },
+    {
+      "true": "diag",
+      "pred": "bars",
+      "count": 14
+    },
+    {
+      "true": "diag",
+      "pred": "L",
+      "count": 8
+    },
+    {
+      "true": "diag",
+      "pred": "cross",
+      "count": 3
+    },
+    {
+      "true": "bars",
+      "pred": "L",
+      "count": 1
+    }
+  ],
+  "T1 Whole-plane motif invariance::RB-2B": [
+    {
+      "true": "diag",
+      "pred": "cross",
+      "count": 387
+    },
+    {
+      "true": "L",
+      "pred": "bars",
+      "count": 200
+    },
+    {
+      "true": "bars",
+      "pred": "diag",
+      "count": 175
+    },
+    {
+      "true": "L",
+      "pred": "cross",
+      "count": 43
+    },
+    {
+      "true": "bars",
+      "pred": "cross",
+      "count": 20
+    }
+  ],
+  "T1 Whole-plane motif invariance::RB-2R": [
+    {
+      "true": "diag",
+      "pred": "cross",
+      "count": 387
+    },
+    {
+      "true": "L",
+      "pred": "bars",
+      "count": 39
+    },
+    {
+      "true": "L",
+      "pred": "cross",
+      "count": 17
+    },
+    {
+      "true": "diag",
+      "pred": "L",
+      "count": 12
+    },
+    {
+      "true": "bars",
+      "pred": "L",
+      "count": 8
+    }
+  ],
+  "T2 Block composition invariance::BASE-0": [
+    {
+      "true": "checker",
+      "pred": "cross",
+      "count": 303
+    },
+    {
+      "true": "checker",
+      "pred": "bars",
+      "count": 66
+    },
+    {
+      "true": "cross",
+      "pred": "checker",
+      "count": 3
+    }
+  ],
+  "T2 Block composition invariance::RB-2A": [
+    {
+      "true": "checker",
+      "pred": "bars",
+      "count": 176
+    },
+    {
+      "true": "checker",
+      "pred": "cross",
+      "count": 125
+    },
+    {
+      "true": "cross",
+      "pred": "checker",
+      "count": 9
+    },
+    {
+      "true": "cross",
+      "pred": "bars",
+      "count": 7
+    }
+  ],
+  "T2 Block composition invariance::RB-2B": [],
+  "T2 Block composition invariance::RB-2R": [
+    {
+      "true": "cross",
+      "pred": "bars",
+      "count": 1
+    }
+  ],
+  "T3 Majority-sign sanity::BASE-0": [
+    {
+      "true": "neu",
+      "pred": "neg",
+      "count": 273
+    }
+  ],
+  "T3 Majority-sign sanity::RB-2A": [
+    {
+      "true": "neu",
+      "pred": "neg",
+      "count": 273
+    }
+  ],
+  "T3 Majority-sign sanity::RB-2B": [
+    {
+      "true": "pos",
+      "pred": "neg",
+      "count": 680
+    },
+    {
+      "true": "neu",
+      "pred": "neg",
+      "count": 273
+    }
+  ],
+  "T3 Majority-sign sanity::RB-2R": [
+    {
+      "true": "pos",
+      "pred": "neg",
+      "count": 680
+    },
+    {
+      "true": "neu",
+      "pred": "neg",
+      "count": 273
+    }
+  ],
+  "T4 Mixed global+local motifs::BASE-0": [
+    {
+      "true": "cross_right",
+      "pred": "cross_left",
+      "count": 223
+    },
+    {
+      "true": "L_left",
+      "pred": "cross_left",
+      "count": 168
+    },
+    {
+      "true": "L_right",
+      "pred": "L_left",
+      "count": 158
+    },
+    {
+      "true": "L_right",
+      "pred": "cross_left",
+      "count": 152
+    },
+    {
+      "true": "cross_left",
+      "pred": "cross_right",
+      "count": 140
+    }
+  ],
+  "T4 Mixed global+local motifs::RB-2A": [
+    {
+      "true": "cross_right",
+      "pred": "cross_left",
+      "count": 389
+    },
+    {
+      "true": "L_left",
+      "pred": "L_right",
+      "count": 123
+    },
+    {
+      "true": "L_right",
+      "pred": "L_left",
+      "count": 116
+    },
+    {
+      "true": "L_right",
+      "pred": "cross_left",
+      "count": 83
+    },
+    {
+      "true": "L_left",
+      "pred": "cross_left",
+      "count": 16
+    }
+  ],
+  "T4 Mixed global+local motifs::RB-2B": [
+    {
+      "true": "cross_right",
+      "pred": "cross_left",
+      "count": 397
+    },
+    {
+      "true": "L_right",
+      "pred": "cross_left",
+      "count": 216
+    },
+    {
+      "true": "L_left",
+      "pred": "cross_left",
+      "count": 201
+    },
+    {
+      "true": "L_right",
+      "pred": "L_left",
+      "count": 188
+    },
+    {
+      "true": "cross_left",
+      "pred": "L_left",
+      "count": 5
+    }
+  ],
+  "T4 Mixed global+local motifs::RB-2R": [
+    {
+      "true": "cross_right",
+      "pred": "cross_left",
+      "count": 387
+    },
+    {
+      "true": "L_right",
+      "pred": "L_left",
+      "count": 200
+    },
+    {
+      "true": "L_left",
+      "pred": "L_right",
+      "count": 120
+    },
+    {
+      "true": "L_right",
+      "pred": "cross_left",
+      "count": 80
+    },
+    {
+      "true": "L_left",
+      "pred": "cross_left",
+      "count": 16
+    }
+  ]
+}

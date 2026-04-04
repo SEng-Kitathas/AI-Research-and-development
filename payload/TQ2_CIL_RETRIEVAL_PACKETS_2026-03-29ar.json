@@ -1,0 +1,68 @@
+{
+  "control_layer": {
+    "purpose": "Current governance and update rules",
+    "artifacts": [
+      "TQ2_CIL_CURRENT_DOC_SET_2026-03-29ao.md",
+      "TQ2_CIL_SOP_CYCLE_UPDATE_2026-03-29aq.md",
+      "TQ2_CIL_REVISIT_LEDGER_2026-03-29ad.md",
+      "TQ2_CIL_REVISIT_LEDGER_SUPPLEMENT_2026-03-29ao.md",
+      "TQ2_RESTARTED_NEXT_STEPS_2026-03-29aq.md",
+      "TQ2_UNIFIED_ONTOLOGY_v1_2026-03-29w.md"
+    ]
+  },
+  "route_readout_seam": {
+    "purpose": "Readout, route diversity, dimension selectivity, and interactions",
+    "artifacts": [
+      "TQ2_stepwise_multi_path_separability_report_2026-03-29ah.md",
+      "TQ2_z_maybe_gate_drop_report_2026-03-29ai.md",
+      "TQ2_dimension_selective_readout_report_2026-03-29aj.md",
+      "TQ2_interaction_aware_route_head_report_2026-03-29ak.md",
+      "TQ2_recursive_validation_pass_report_2026-03-29al.md"
+    ]
+  },
+  "k2_k3_macro_micro": {
+    "purpose": "K2/K3 schedule experiments and current macro-track interpretation",
+    "artifacts": [
+      "TQ2_k3_route_preserver_report_2026-03-29am.md",
+      "TQ2_k2_to_k3_macro_micro_report_2026-03-29an.md",
+      "TQ2_k2_to_k3_summary_report_2026-03-29x.md",
+      "TQ2_offset_k2_k3_report_2026-03-29w.md"
+    ]
+  },
+  "text_path": {
+    "purpose": "Text-side transform and encoder path",
+    "artifacts": [
+      "TQ2_text_transform_family_ablation_report_2026-03-29ao.md",
+      "TQ2_nextchar_singleplane_v3_vs_multiplane_v4_report_2026-03-29j.md",
+      "TQ2_nextchar_multiplane_v4_vs_recurrent_v5_report_2026-03-29k.md",
+      "TQ2_text_ood_probe_report_2026-03-29h.md"
+    ]
+  },
+  "project_a_distillation": {
+    "purpose": "First explicit Project A empirical foothold",
+    "artifacts": [
+      "TQ2_toy_distillation_report_2026-03-29aq.md",
+      "TQ2_toy_distillation_results_2026-03-29aq.csv",
+      "TQ2_toy_distillation_quant_details_2026-03-29aq.csv"
+    ]
+  },
+  "external_calibration": {
+    "purpose": "Outside comparator for T1\u2013T4 family semantics",
+    "artifacts": [
+      "TQ2_tiny_mlp_baseline_report_2026-03-29ap.md",
+      "TQ2_tiny_mlp_baseline_summary_2026-03-29ap.csv",
+      "TQ2_tiny_mlp_vs_branch_compare_2026-03-29ap.csv"
+    ]
+  },
+  "sources_and_captures": {
+    "purpose": "Primary thread/corpus captures and extraction layer",
+    "artifacts": [
+      "EXTRACT.md",
+      "Claude eval.md",
+      "Full extracted MHT.txt",
+      "Tech Concept Evaluation.mht",
+      "Design synthesis and specification alignment - Claude (3).mht",
+      "TQ2_CIL_FULL_EXTRACTION_2026-03-29.md"
+    ]
+  }
+}

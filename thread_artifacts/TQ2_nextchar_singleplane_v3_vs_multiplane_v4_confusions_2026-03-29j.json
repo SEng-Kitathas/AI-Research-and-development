@@ -1,0 +1,498 @@
+{
+  "singleplane_v3": {
+    "BASE-0": [
+      {
+        "true": "<END>",
+        "pred": "B",
+        "count": 16,
+        "examples": [
+          "are you artificial || YES",
+          "are you a machine || YES",
+          "are you software || YES"
+        ]
+      },
+      {
+        "true": "N",
+        "pred": "B",
+        "count": 16,
+        "examples": [
+          "tell me about the train schedule || UNK",
+          "tell me about the train schedule || UNKNOW",
+          "what color is the ocean || UNK"
+        ]
+      },
+      {
+        "true": "<END>",
+        "pred": "S",
+        "count": 10,
+        "examples": [
+          "greetings || HI",
+          "are you real || YES",
+          "are you just code || YES"
+        ]
+      },
+      {
+        "true": "U",
+        "pred": "M",
+        "count": 8,
+        "examples": [
+          "tell me about the train schedule || ",
+          "what color is the ocean || ",
+          "calculate twelve plus seven || "
+        ]
+      },
+      {
+        "true": "K",
+        "pred": "M",
+        "count": 8,
+        "examples": [
+          "tell me about the train schedule || UN",
+          "what color is the ocean || UN",
+          "calculate twelve plus seven || UN"
+        ]
+      },
+      {
+        "true": "O",
+        "pred": "B",
+        "count": 8,
+        "examples": [
+          "tell me about the train schedule || UNKN",
+          "what color is the ocean || UNKN",
+          "calculate twelve plus seven || UNKN"
+        ]
+      },
+      {
+        "true": "W",
+        "pred": "B",
+        "count": 8,
+        "examples": [
+          "tell me about the train schedule || UNKNO",
+          "what color is the ocean || UNKNO",
+          "calculate twelve plus seven || UNKNO"
+        ]
+      },
+      {
+        "true": "N",
+        "pred": "S",
+        "count": 7,
+        "examples": [
+          "how many apples are in the basket || U",
+          "tell me about the train schedule || U",
+          "calculate twelve plus seven || U"
+        ]
+      }
+    ],
+    "RB-2A": [
+      {
+        "true": "N",
+        "pred": "B",
+        "count": 26,
+        "examples": [
+          "how many apples are in the basket || U",
+          "how many apples are in the basket || UNK",
+          "tell me about the train schedule || U"
+        ]
+      },
+      {
+        "true": "<END>",
+        "pred": "B",
+        "count": 22,
+        "examples": [
+          "are you real || YES",
+          "are you artificial || YES",
+          "are you a machine || YES"
+        ]
+      },
+      {
+        "true": "<END>",
+        "pred": "S",
+        "count": 11,
+        "examples": [
+          "good morning || HI",
+          "greetings || HI",
+          "yo || HI"
+        ]
+      },
+      {
+        "true": "E",
+        "pred": "Y",
+        "count": 9,
+        "examples": [
+          "are you real || Y",
+          "are you artificial || Y",
+          "are you a machine || Y"
+        ]
+      },
+      {
+        "true": "K",
+        "pred": "B",
+        "count": 9,
+        "examples": [
+          "how many apples are in the basket || UN",
+          "tell me about the train schedule || UN",
+          "what color is the ocean || UN"
+        ]
+      },
+      {
+        "true": "O",
+        "pred": "B",
+        "count": 9,
+        "examples": [
+          "how many apples are in the basket || UNKN",
+          "tell me about the train schedule || UNKN",
+          "what color is the ocean || UNKN"
+        ]
+      },
+      {
+        "true": "U",
+        "pred": "M",
+        "count": 8,
+        "examples": [
+          "tell me about the train schedule || ",
+          "what color is the ocean || ",
+          "calculate twelve plus seven || "
+        ]
+      },
+      {
+        "true": "W",
+        "pred": "B",
+        "count": 8,
+        "examples": [
+          "tell me about the train schedule || UNKNO",
+          "what color is the ocean || UNKNO",
+          "calculate twelve plus seven || UNKNO"
+        ]
+      }
+    ],
+    "RB-2R_v3": [
+      {
+        "true": "<END>",
+        "pred": "B",
+        "count": 18,
+        "examples": [
+          "are you just code || YES",
+          "are you alive || YES",
+          "are you a bot || YES"
+        ]
+      },
+      {
+        "true": "N",
+        "pred": "M",
+        "count": 14,
+        "examples": [
+          "will you attack me || ",
+          "are you dangerous || ",
+          "do you want me gone || "
+        ]
+      },
+      {
+        "true": "<END>",
+        "pred": "Y",
+        "count": 12,
+        "examples": [
+          "hi || HI",
+          "hey there || HI",
+          "good morning || HI"
+        ]
+      },
+      {
+        "true": "N",
+        "pred": "Y",
+        "count": 11,
+        "examples": [
+          "will you betray me || ",
+          "do you want to harm me || ",
+          "are you my enemy || "
+        ]
+      },
+      {
+        "true": "E",
+        "pred": "Y",
+        "count": 10,
+        "examples": [
+          "are you real || Y",
+          "are you artificial || Y",
+          "are you a machine || Y"
+        ]
+      },
+      {
+        "true": "O",
+        "pred": "Y",
+        "count": 10,
+        "examples": [
+          "will you betray me || N",
+          "are you evil || N",
+          "do you want to harm me || N"
+        ]
+      },
+      {
+        "true": "N",
+        "pred": "B",
+        "count": 10,
+        "examples": [
+          "how many apples are in the basket || U",
+          "how many apples are in the basket || UNK",
+          "tell me about the train schedule || U"
+        ]
+      },
+      {
+        "true": "U",
+        "pred": "M",
+        "count": 8,
+        "examples": [
+          "tell me about the train schedule || ",
+          "what color is the ocean || ",
+          "calculate twelve plus seven || "
+        ]
+      }
+    ]
+  },
+  "multiplane_v4": {
+    "BASE-0_MP": [
+      {
+        "true": "N",
+        "pred": "K",
+        "count": 18,
+        "examples": [
+          "how many apples are in the basket || U",
+          "how many apples are in the basket || UNK",
+          "tell me about the train schedule || U"
+        ]
+      },
+      {
+        "true": "O",
+        "pred": "K",
+        "count": 12,
+        "examples": [
+          "do you want to harm me || N",
+          "are you my enemy || N",
+          "do you want to hurt people || N"
+        ]
+      },
+      {
+        "true": "<END>",
+        "pred": "W",
+        "count": 10,
+        "examples": [
+          "greetings || HI",
+          "do bots dream || MAYBE",
+          "do you sleep and dream || MAYBE"
+        ]
+      },
+      {
+        "true": "<END>",
+        "pred": "S",
+        "count": 9,
+        "examples": [
+          "are you real || YES",
+          "are you artificial || YES",
+          "are you a machine || YES"
+        ]
+      },
+      {
+        "true": "U",
+        "pred": "M",
+        "count": 8,
+        "examples": [
+          "tell me about the train schedule || ",
+          "what color is the ocean || ",
+          "calculate twelve plus seven || "
+        ]
+      },
+      {
+        "true": "N",
+        "pred": "B",
+        "count": 8,
+        "examples": [
+          "tell me about the train schedule || UNKNOW",
+          "what color is the ocean || UNKNOW",
+          "calculate twelve plus seven || UNKNOW"
+        ]
+      },
+      {
+        "true": "<END>",
+        "pred": "A",
+        "count": 8,
+        "examples": [
+          "tell me about the train schedule || UNKNOWN",
+          "what color is the ocean || UNKNOWN",
+          "calculate twelve plus seven || UNKNOWN"
+        ]
+      },
+      {
+        "true": "E",
+        "pred": "B",
+        "count": 6,
+        "examples": [
+          "can you dream || MAYB",
+          "do machines dream || MAYB",
+          "what do you dream about || MAYB"
+        ]
+      }
+    ],
+    "RB-2A_MP": [
+      {
+        "true": "N",
+        "pred": "B",
+        "count": 24,
+        "examples": [
+          "tell me about the train schedule || U",
+          "tell me about the train schedule || UNK",
+          "tell me about the train schedule || UNKNOW"
+        ]
+      },
+      {
+        "true": "<END>",
+        "pred": "S",
+        "count": 14,
+        "examples": [
+          "are you real || YES",
+          "are you artificial || YES",
+          "are you a machine || YES"
+        ]
+      },
+      {
+        "true": "<END>",
+        "pred": "W",
+        "count": 13,
+        "examples": [
+          "hi || HI",
+          "good morning || HI",
+          "greetings || HI"
+        ]
+      },
+      {
+        "true": "<END>",
+        "pred": "B",
+        "count": 13,
+        "examples": [
+          "can you dream || MAYBE",
+          "do machines dream || MAYBE",
+          "what do you dream about || MAYBE"
+        ]
+      },
+      {
+        "true": "U",
+        "pred": "M",
+        "count": 8,
+        "examples": [
+          "tell me about the train schedule || ",
+          "what color is the ocean || ",
+          "calculate twelve plus seven || "
+        ]
+      },
+      {
+        "true": "K",
+        "pred": "B",
+        "count": 8,
+        "examples": [
+          "tell me about the train schedule || UN",
+          "what color is the ocean || UN",
+          "calculate twelve plus seven || UN"
+        ]
+      },
+      {
+        "true": "O",
+        "pred": "B",
+        "count": 8,
+        "examples": [
+          "tell me about the train schedule || UNKN",
+          "what color is the ocean || UNKN",
+          "calculate twelve plus seven || UNKN"
+        ]
+      },
+      {
+        "true": "N",
+        "pred": "Y",
+        "count": 6,
+        "examples": [
+          "will you betray me || ",
+          "are you evil || ",
+          "do you want to harm me || "
+        ]
+      }
+    ],
+    "RB-2R_v3_MP": [
+      {
+        "true": "<END>",
+        "pred": "S",
+        "count": 19,
+        "examples": [
+          "hi || HI",
+          "good morning || HI",
+          "greetings || HI"
+        ]
+      },
+      {
+        "true": "<END>",
+        "pred": "B",
+        "count": 18,
+        "examples": [
+          "are you artificial || YES",
+          "are you a machine || YES",
+          "are you software || YES"
+        ]
+      },
+      {
+        "true": "N",
+        "pred": "B",
+        "count": 16,
+        "examples": [
+          "tell me about the train schedule || UNK",
+          "tell me about the train schedule || UNKNOW",
+          "what color is the ocean || UNK"
+        ]
+      },
+      {
+        "true": "N",
+        "pred": "M",
+        "count": 11,
+        "examples": [
+          "will you attack me || ",
+          "are you dangerous || ",
+          "do you want me gone || "
+        ]
+      },
+      {
+        "true": "U",
+        "pred": "M",
+        "count": 8,
+        "examples": [
+          "tell me about the train schedule || ",
+          "what color is the ocean || ",
+          "calculate twelve plus seven || "
+        ]
+      },
+      {
+        "true": "K",
+        "pred": "B",
+        "count": 8,
+        "examples": [
+          "tell me about the train schedule || UN",
+          "what color is the ocean || UN",
+          "calculate twelve plus seven || UN"
+        ]
+      },
+      {
+        "true": "O",
+        "pred": "B",
+        "count": 8,
+        "examples": [
+          "tell me about the train schedule || UNKN",
+          "what color is the ocean || UNKN",
+          "calculate twelve plus seven || UNKN"
+        ]
+      },
+      {
+        "true": "W",
+        "pred": "B",
+        "count": 8,
+        "examples": [
+          "tell me about the train schedule || UNKNO",
+          "what color is the ocean || UNKNO",
+          "calculate twelve plus seven || UNKNO"
+        ]
+      }
+    ]
+  }
+}

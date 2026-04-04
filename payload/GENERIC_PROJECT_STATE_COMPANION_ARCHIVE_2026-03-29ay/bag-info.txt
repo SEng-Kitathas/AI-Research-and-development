@@ -1,0 +1,4 @@
+Source-Organization: ChatGPT Generic Project State Companion Archive
+Bagging-Date: 2026-03-29
+Bag-Group-Identifier: generic-project-state-companion
+External-Description: Project-agnostic template archive for state/control docs to pair with the universal SOP archive.

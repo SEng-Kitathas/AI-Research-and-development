@@ -1,0 +1,61 @@
+{
+  "source_zip": "files(1).zip",
+  "extract_root": "/mnt/data/parallel_research_zip_extract",
+  "artifact_count": 9,
+  "artifacts": [
+    {
+      "file_name": "CONSOLIDATED_NEXT_STEPS_2026-03-29af.md",
+      "bytes": 4320,
+      "sha256_12": "9a39dad29c09",
+      "kind": "markdown"
+    },
+    {
+      "file_name": "RESEARCH_LAB_INDEX_2026-03-29af.md",
+      "bytes": 2298,
+      "sha256_12": "bb99c98a698d",
+      "kind": "markdown"
+    },
+    {
+      "file_name": "TQ2_CIL_REVISIT_LEDGER_2026-03-29af.md",
+      "bytes": 7301,
+      "sha256_12": "815b25e9e7d2",
+      "kind": "markdown"
+    },
+    {
+      "file_name": "TQ2_EXT_BASELINE_REPORT_2026-03-29af.md",
+      "bytes": 4579,
+      "sha256_12": "9ce8b2608c21",
+      "kind": "markdown"
+    },
+    {
+      "file_name": "TQ2_TEXT_LOGREG_REFRAME_REPORT_2026-03-29af.md",
+      "bytes": 2725,
+      "sha256_12": "d028f928fa66",
+      "kind": "markdown"
+    },
+    {
+      "file_name": "TQ2_ZMAY_ABLATION_REPORT_2026-03-29af.md",
+      "bytes": 1985,
+      "sha256_12": "b672fdfe7778",
+      "kind": "markdown"
+    },
+    {
+      "file_name": "TQ2_ext_baseline_2026-03-29af.csv",
+      "bytes": 1708,
+      "sha256_12": "2cf847dd9af9",
+      "kind": "csv"
+    },
+    {
+      "file_name": "WEIGHT_SUBSTRATE_WHITE_PAPER_v1.1_2026-03-29af.md",
+      "bytes": 2914,
+      "sha256_12": "6c914df2fb1f",
+      "kind": "markdown"
+    },
+    {
+      "file_name": "tq2_substrate.py",
+      "bytes": 13773,
+      "sha256_12": "1897f2f8de45",
+      "kind": "python"
+    }
+  ]
+}
