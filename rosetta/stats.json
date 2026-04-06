@@ -1,0 +1,7 @@
+{
+  "tensor_count": 628,
+  "quantized_tensor_count": 169,
+  "total_size_bytes_est": 277996288,
+  "total_logical_numel_est": 509469056,
+  "timestamp_utc": "2026-04-05T03:29:34.197283Z"
+}

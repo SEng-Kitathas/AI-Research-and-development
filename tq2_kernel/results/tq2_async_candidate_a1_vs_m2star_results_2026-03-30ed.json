@@ -1,0 +1,118 @@
+{
+  "comparison": [
+    {
+      "candidate": "M2STAR",
+      "surfaces": {
+        "sigma_v2": {
+          "acc": 88.89,
+          "mirror": 3,
+          "rr": 2
+        },
+        "sigma_v3": {
+          "acc": 71.88,
+          "mirror": 5,
+          "rr": 2
+        },
+        "sigma_v4": {
+          "acc": 75.0,
+          "mirror": 6,
+          "rr": 1
+        }
+      },
+      "mean_acc": 78.59,
+      "total_mirror": 14,
+      "total_rr": 5,
+      "confusions": {
+        "sigma_v2": {
+          "L_left->L_left": 8,
+          "L_right->L_right": 8,
+          "cross_left->cross_left": 8,
+          "cross_right->cross_right": 8,
+          "L_left->L_right": 1,
+          "L_right->cross_left": 1,
+          "cross_left->cross_right": 1,
+          "cross_right->cross_left": 1
+        },
+        "sigma_v3": {
+          "L_right->L_right": 6,
+          "cross_left->cross_left": 6,
+          "cross_right->cross_right": 6,
+          "L_left->L_left": 5,
+          "L_left->cross_left": 2,
+          "L_right->cross_right": 2,
+          "cross_left->cross_right": 2,
+          "cross_right->cross_left": 2,
+          "L_left->L_right": 1
+        },
+        "sigma_v4": {
+          "cross_right->cross_right": 9,
+          "L_right->L_right": 8,
+          "L_left->L_left": 7,
+          "cross_left->cross_left": 6,
+          "cross_left->cross_right": 4,
+          "L_left->cross_left": 2,
+          "L_right->cross_right": 2,
+          "L_left->L_right": 1,
+          "cross_right->cross_left": 1
+        }
+      }
+    },
+    {
+      "candidate": "A1",
+      "surfaces": {
+        "sigma_v2": {
+          "acc": 88.89,
+          "mirror": 3,
+          "rr": 2
+        },
+        "sigma_v3": {
+          "acc": 71.88,
+          "mirror": 5,
+          "rr": 2
+        },
+        "sigma_v4": {
+          "acc": 77.5,
+          "mirror": 5,
+          "rr": 1
+        }
+      },
+      "mean_acc": 79.42,
+      "total_mirror": 13,
+      "total_rr": 5,
+      "confusions": {
+        "sigma_v2": {
+          "L_left->L_left": 8,
+          "L_right->L_right": 8,
+          "cross_left->cross_left": 8,
+          "cross_right->cross_right": 8,
+          "L_left->L_right": 1,
+          "L_right->cross_left": 1,
+          "cross_left->cross_right": 1,
+          "cross_right->cross_left": 1
+        },
+        "sigma_v3": {
+          "L_right->L_right": 6,
+          "cross_left->cross_left": 6,
+          "cross_right->cross_right": 6,
+          "L_left->L_left": 5,
+          "L_left->cross_left": 2,
+          "L_right->cross_right": 2,
+          "cross_left->cross_right": 2,
+          "cross_right->cross_left": 2,
+          "L_left->L_right": 1
+        },
+        "sigma_v4": {
+          "cross_right->cross_right": 9,
+          "L_right->L_right": 8,
+          "L_left->L_left": 7,
+          "cross_left->cross_left": 7,
+          "cross_left->cross_right": 3,
+          "L_left->cross_left": 2,
+          "L_right->cross_right": 2,
+          "L_left->L_right": 1,
+          "cross_right->cross_left": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "source_files": [
+    "/mnt/data/model (1).safetensors"
+  ],
+  "notes": [
+    "Quant-aware extension over packaged relational converter.",
+    "Heuristic classifications are provisional.",
+    "Quant-aware decode currently supports affine nibble-packed U32 weights with matching scales and biases.",
+    "Decoded statistics are sampled approximate values, not full dense reconstruction."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "pack": "/mnt/data/MINILM_ATTENTION_BRANCH_MICROPACK_v0_1.json",
+  "summary": {
+    "overall": 0.0,
+    "attention_branch_identity_strict": 0.0,
+    "attention_cross_layer_branch_homology": 0.0
+  },
+  "family_results": []
+}

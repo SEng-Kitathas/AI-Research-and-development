@@ -1,0 +1,56 @@
+{
+  "by_role": {
+    "embedding": 3,
+    "norm": 49,
+    "mlp_down": 72,
+    "mlp_gate": 72,
+    "mlp_up": 72,
+    "attention_qkv": 288,
+    "attention_out": 72
+  },
+  "by_family": {
+    "embedding": 3,
+    "normalization": 25,
+    "mlp": 216,
+    "attention": 384
+  },
+  "by_dtype": {
+    "F16": 459,
+    "U32": 169
+  },
+  "by_logical_dtype": {
+    "F16": 459,
+    "F32(decoded_sampled)": 169
+  },
+  "by_layer": {
+    "none": 4,
+    "0": 26,
+    "1": 26,
+    "10": 26,
+    "11": 26,
+    "12": 26,
+    "13": 26,
+    "14": 26,
+    "15": 26,
+    "16": 26,
+    "17": 26,
+    "18": 26,
+    "19": 26,
+    "2": 26,
+    "20": 26,
+    "21": 26,
+    "22": 26,
+    "23": 26,
+    "3": 26,
+    "4": 26,
+    "5": 26,
+    "6": 26,
+    "7": 26,
+    "8": 26,
+    "9": 26
+  },
+  "by_quantization": {
+    "none": 459,
+    "affine_nibble_u32": 169
+  }
+}

@@ -1,0 +1,41 @@
+# TQ2 Canonical Report Summary
+
+Generated: 2026-04-04T14:56:45.899691+00:00
+
+## Canonical findings
+- Recovered async architecture search best mean accuracy: 79.42.
+- A1 local refinement best mean accuracy: 79.42.
+- Sigma-v5 async local refinement recovered accuracy: 72.92.
+- A1 remains the best recovered aggregate architecture across sigma v2/v3/v4 surfaces.
+- Sigma-v5 remains the warning surface showing that async advantage is conditional on resolver/sync law.
+
+## Surface summaries
+### async_arch_search
+- mean_acc: `79.42`
+- total_mirror: `13`
+- total_rr: `5`
+- composite: `68.635`
+- policy: `{'side_worker': 'direct_delta', 'shape_worker': 'family_contrast', 'resolver': 'veto', 'sync_mode': 'parallel_join', 'conf_gate': 0.35, 'veto_strength': 0.2, 'right_bias': 0.08, 'whole_block_blend': 0.55}`
+
+### a1_local_refinement
+- mean_acc: `79.42`
+- total_mirror: `13`
+- total_rr: `5`
+- composite: `68.63`
+- policy: `{'right_bias': 0.04, 'veto_strength': 0.1, 'blend': 0.5, 'shape_pen': 0.45, 'cross_pen': 0.55}`
+
+### sigma_v5_arch_sensitive
+- sigma_v5: `[{'candidate': 'M2STAR', 'acc': 70.83, 'mirror': 7, 'rr': 1, 'top_confusions': {'cross_right->cross_right': 11, 'L_right->L_right': 9, 'L_left->L_left': 7, 'cross_left->cross_left': 7, 'cross_left->cross_right': 4, 'L_left->cross_left': 3, 'L_right->cross_right': 3, 'L_left->L_right': 2, 'cross_left->L_right': 1, 'cross_right->cross_left': 1}}, {'candidate': 'A1T', 'acc': 70.83, 'mirror': 8, 'rr': 3, 'top_confusions': {'L_right->L_right': 9, 'cross_right->cross_right': 9, 'L_left->L_left': 8, 'cross_left->cross_left': 8, 'cross_left->cross_right': 4, 'L_left->cross_left': 3, 'L_right->cross_right': 3, 'cross_right->cross_left': 3, 'L_left->L_right': 1}}]`
+
+### v5_async_local_refinement
+- acc: `72.92`
+- mirror: `7`
+- rr: `2`
+- composite: `69.57`
+- policy: `{'right_bias': 0.08, 'whole_block_blend': 0.5, 'conf_gate': 0.25, 'sync_mode': 'shape_priority', 'resolver': 'sum', 'veto_strength': 0.0}`
+
+### a1_vs_m2star
+- payload: `[{'candidate': 'M2STAR', 'surfaces': {'sigma_v2': {'acc': 88.89, 'mirror': 3, 'rr': 2}, 'sigma_v3': {'acc': 71.88, 'mirror': 5, 'rr': 2}, 'sigma_v4': {'acc': 75.0, 'mirror': 6, 'rr': 1}}, 'mean_acc': 78.59, 'total_mirror': 14, 'total_rr': 5, 'confusions': {'sigma_v2': {'L_left->L_left': 8, 'L_right->L_right': 8, 'cross_left->cross_left': 8, 'cross_right->cross_right': 8, 'L_left->L_right': 1, 'L_right->cross_left': 1, 'cross_left->cross_right': 1, 'cross_right->cross_left': 1}, 'sigma_v3': {'L_right->L_right': 6, 'cross_left->cross_left': 6, 'cross_right->cross_right': 6, 'L_left->L_left': 5, 'L_left->cross_left': 2, 'L_right->cross_right': 2, 'cross_left->cross_right': 2, 'cross_right->cross_left': 2, 'L_left->L_right': 1}, 'sigma_v4': {'cross_right->cross_right': 9, 'L_right->L_right': 8, 'L_left->L_left': 7, 'cross_left->cross_left': 6, 'cross_left->cross_right': 4, 'L_left->cross_left': 2, 'L_right->cross_right': 2, 'L_left->L_right': 1, 'cross_right->cross_left': 1}}}, {'candidate': 'A1', 'surfaces': {'sigma_v2': {'acc': 88.89, 'mirror': 3, 'rr': 2}, 'sigma_v3': {'acc': 71.88, 'mirror': 5, 'rr': 2}, 'sigma_v4': {'acc': 77.5, 'mirror': 5, 'rr': 1}}, 'mean_acc': 79.42, 'total_mirror': 13, 'total_rr': 5, 'confusions': {'sigma_v2': {'L_left->L_left': 8, 'L_right->L_right': 8, 'cross_left->cross_left': 8, 'cross_right->cross_right': 8, 'L_left->L_right': 1, 'L_right->cross_left': 1, 'cross_left->cross_right': 1, 'cross_right->cross_left': 1}, 'sigma_v3': {'L_right->L_right': 6, 'cross_left->cross_left': 6, 'cross_right->cross_right': 6, 'L_left->L_left': 5, 'L_left->cross_left': 2, 'L_right->cross_right': 2, 'cross_left->cross_right': 2, 'cross_right->cross_left': 2, 'L_left->L_right': 1}, 'sigma_v4': {'cross_right->cross_right': 9, 'L_right->L_right': 8, 'L_left->L_left': 7, 'cross_left->cross_left': 7, 'cross_left->cross_right': 3, 'L_left->cross_left': 2, 'L_right->cross_right': 2, 'L_left->L_right': 1, 'cross_right->cross_left': 1}}}]`
+
+## Working conclusion
+The next build pressure should focus on controlled replay, explicit resolver/sync ablations, and report-stable reruns rather than broadening the architecture surface.

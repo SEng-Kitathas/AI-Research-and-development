@@ -1,0 +1,11 @@
+{
+  "source_file": "/mnt/data/model (2).safetensors",
+  "output_file": "/mnt/data/h2o_dense_merged.safetensors",
+  "decoded_quantized_tensors": 112,
+  "passthrough_tensors": 35,
+  "dropped_auxiliary_quant_tensors": 224,
+  "quant_schemes": {
+    "awq_i32_affine4": 112
+  },
+  "tensor_count_out": 147
+}

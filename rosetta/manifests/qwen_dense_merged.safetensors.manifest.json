@@ -1,0 +1,11 @@
+{
+  "source_file": "/mnt/data/model (1).safetensors",
+  "output_file": "/mnt/data/qwen_dense_merged.safetensors",
+  "decoded_quantized_tensors": 169,
+  "passthrough_tensors": 121,
+  "dropped_auxiliary_quant_tensors": 676,
+  "quant_schemes": {
+    "qwen_u32_affine4": 169
+  },
+  "tensor_count_out": 290
+}

@@ -1,0 +1,5 @@
+{
+  "source_corpus": "/mnt/data/converted_minilm_relational_corpus",
+  "benchmark_name": "MiniLM_Attention_Branch_Identity_MicroPack_v0_1",
+  "families": []
+}
